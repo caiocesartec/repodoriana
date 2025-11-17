@@ -58,8 +58,7 @@ export const Footer = () => {
             <p className={styles.footerTitle}>Menu</p>
             <nav className={styles.footerList}>
               <Link href="/">Home</Link>
-              <Link href="/produtos">Produtos</Link>
-              <Link href="/#">Receitas</Link>
+              <Link href="https://www.doriana.com.br/receitas/">Receitas</Link>
               <Link href="/sobre">Nossa História</Link>
             </nav>
           </div>
