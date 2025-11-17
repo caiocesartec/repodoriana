@@ -1,0 +1,151 @@
+.equipeSection {
+  padding: 6rem 2rem;
+  color: #ffffff;
+}
+.fullBarWrapper {
+  margin-bottom: 0!important;
+}
+
+.tag {
+  display: inline-block;
+  color: #053282;
+  font-family: "Magnolia";
+  font-size: 64px;
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 800;
+  line-height: 75px;
+  margin-left: 50px;
+}
+
+.trabalheConosco .tag {
+  text-align: right;
+}
+  /* color: #053282; */
+
+.divider {
+  height: 2px;
+  background-color: #053282;
+  margin-top: 4px;
+}
+
+.quemFaz {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 6rem;
+}
+
+.title {
+  font-family: "FinalSix";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #0f4196;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #0f4196;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: #bc9c6b;
+  border: none;
+  padding: 0.75rem 2rem;
+  color: #0d1329;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #a78558;
+}
+
+.trabalheConosco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.subtitle {
+  font-family: "FinalSix";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 1rem 0;
+  color: #0f4196;
+}
+
+.textDescription {
+  font-size: 19px;
+  line-height: 1.6;
+  color: #0f4196;
+  margin-bottom: 1.5rem;
+  margin-left: 50px;
+}
+
+.trabalheConosco .textDescription {
+  text-align: right;
+}
+
+.imageWrapper {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  max-height: 100%;
+  margin-right: calc(-50vw + 50%);
+  width: 100vw;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 80px;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 18px;
+    text-align: center;
+
+  }
+  .description {
+    font-size: 12px;
+  }
+  .subtitle {
+    font-size: 18px;
+
+  }
+  .tag {
+    text-align: right;
+    line-height: normal;
+    font-size: 26px;
+  }
+  .textDescription {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  .equipeSection {
+    padding-top: 70px;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 74px;
+  font-weight: 800;
+  color: #0f4196;
+  font-family: Magnolia;
+  margin-top: 25px
+}
+
+.divider {
+  height: 2px;
+  background-color: #0f4196;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+}

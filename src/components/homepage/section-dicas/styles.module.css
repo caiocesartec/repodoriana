@@ -1,0 +1,130 @@
+.dicasSection {
+  position: relative;
+  width: 100%;
+  min-height: 61vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: rgb(250 235 200 / 65%);
+  padding: 20rem 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.tag {
+  display: inline-block;
+  color: #053282;
+  font-family: "FinalSix";
+  font-size: .85rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  width: 70px;
+  height: 2px;
+  background-color: #053282;
+  margin: 4px auto 0;
+}
+
+.title {
+  font-family: "FinalSix";
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #0f4196;
+}
+
+.subtitle {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  color: #0f4196;
+}
+
+.carouselWrapper {
+  width: 100%;
+}
+
+.dicasSwiper {
+  position: static;
+  margin-top: 1rem;
+}
+
+.dicasSwiper :global(.swiper-pagination) {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 18px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+}
+
+.fullBarWrapper {
+  margin: 3rem 0;
+  border-top: 2px solid #0f4196;
+  border-bottom: 2px solid #0f4196;
+  overflow: hidden;
+  width: calc(100vw + 4rem);
+  left: 50%;
+  margin-left: calc(-50vw - 2rem);
+  position: relative;
+  height: 90px;
+  margin-top: 90px;
+}
+
+.fullBarTrack {
+  display: flex;
+  width: max-content;
+  height: 100%;
+}
+
+.fullBar {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .fullBarWrapper {
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    height: 90px;
+    border-width: 4px;
+  }
+
+  .fullBar {
+    height: 90px;
+  }
+}
+

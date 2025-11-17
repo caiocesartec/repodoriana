@@ -1,0 +1,134 @@
+.ctaContainer {
+  background-color: #fae128;
+  position: relative;
+  overflow: visible;
+  padding: 2rem 0;
+}
+
+.ctaContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.imageWrapper {
+  position: absolute;
+  bottom: -3%;
+  left: 10%;
+  z-index: 2;
+  height: auto;
+}
+
+.imageWrapper :global(img) {
+  height: auto;
+  width: 80%;
+  max-height: 130%;
+  object-fit: contain;
+  position: relative;
+  top: -30%;
+}
+
+.textAndButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 320px;
+  z-index: 10;
+  gap: 1rem;
+}
+
+.textWrapper {
+  color: #1C2033;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textWrapper h2 {
+  font-family: "FinalSix";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.textWrapper p {
+  margin: 0.2rem 0;
+  font-size: 14px;
+}
+
+.ctaButton {
+  background-color: #facd0a;
+  color: #0f1425;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.ctaButton:hover {
+  background-color: #fae128;
+}
+
+@media (max-width: 875px) {
+  .ctaContent {
+    padding: 0 1rem;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .textAndButton {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    padding-top: 1rem;
+  }
+
+  .imageWrapper {
+    bottom: -24%;
+    left: 5%;
+  }
+
+  .imageWrapper :global(img) {
+    width: 100%;
+    height: 101%;
+    top: -9%;
+    right: 30%;
+  }
+}
+
+@media (max-width: 670px) {
+  .imageWrapper {
+    bottom: -18%;
+    width: 46%;
+    left: 0%;
+  }
+}
+
+@media (max-width: 420px) {
+  .imageWrapper {
+    bottom: -13%;
+    width: 85%;
+    left: -5%;
+  }
+}
+
+@media (max-width: 575px) {
+  .textAndButton {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 150px;
+    width: calc(100% - 150px);
+    gap: 0.5rem;
+  }
+}

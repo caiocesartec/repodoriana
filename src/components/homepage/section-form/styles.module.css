@@ -1,0 +1,205 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-family: FinalSix;
+}
+
+.newsletterBox {
+  background: #053282;
+  border-radius: 40px;
+  padding: 0;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: FinalSix;
+}
+
+.inner {
+  padding: 3rem 3.5rem;
+  font-family: FinalSix;
+}
+
+.title {
+  color: #faebc8;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  font-family: FinalSix;
+}
+
+.highlight {
+  color: #facd0a;
+  font-weight: 700;
+  font-family: FinalSix;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: FinalSix;
+}
+
+.twoColumns {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: FinalSix;
+}
+
+@media (min-width: 768px) {
+  .twoColumns {
+    flex-direction: row;
+  }
+
+  .formGroup {
+    flex: 1;
+  }
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  font-family: FinalSix;
+}
+
+.label {
+  color: #faebc8;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-family: FinalSix;
+}
+
+.input {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: white;
+  font-family: FinalSix;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: FinalSix;
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  font-family: FinalSix;
+  flex-shrink: 0;
+}
+
+.checkboxLabel {
+  color: #faebc8;
+  font-size: 16px;
+  font-family: FinalSix;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  font-family: FinalSix;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: 2px solid #facd0a;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  color: #facd0a;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-family: FinalSix;
+}
+
+.submitBtn:hover {
+  background: #facd0a;
+  color: #053282;
+}
+
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+  font-family: FinalSix;
+}
+
+.sendingBox {
+  margin-top: 10px;
+  font-family: FinalSix;
+}
+
+.sendingAlert {
+  background: #facd0a;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: #053282;
+  font-weight: bold;
+  text-align: center;
+  font-family: FinalSix;
+}
+
+.errorBox {
+  background: #f44336;
+  color: #faebc8;
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+  font-family: FinalSix;
+}
+
+.successOverlay {
+  position: absolute;
+  inset: 0;
+  background: #053282;
+  color: #faebc8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: FinalSix;
+}
+
+.successContent {
+  text-align: center;
+  font-family: FinalSix;
+}
+
+.successMsg {
+  font-size: 22px;
+  margin-bottom: 1rem;
+  display: block;
+  font-family: FinalSix;
+}
+
+.successBtn {
+  background: transparent;
+  border: 2px solid #facd0a;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  color: #facd0a;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-family: FinalSix;
+}
+
+.successBtn:hover {
+  background: #facd0a;
+  color: #053282;
+}

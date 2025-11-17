@@ -1,0 +1,242 @@
+.careersSection {
+  padding: 4rem 3rem;
+  color: #053282;
+  background: #FAEBC8;
+}
+
+.title {
+  text-align: center;
+  font-family: "Magnolia";
+  font-size: 42px;
+  font-weight: 400;
+  color: #053282;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-family: "FinalSix";
+  color: #0F4196;
+  max-width: 1200px;
+  margin: 0 auto 70px auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imageWrapper {
+  flex: 1 1 400px;
+  position: relative;
+  min-height: 520px;
+  max-height: 620px;
+  width: 100%;
+  display: flex;
+}
+
+.image {
+  object-fit: contain;
+  padding: 20px;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 15px;
+}
+
+.textBlock {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vagasTitle {
+  font-family: "Magnolia";
+  font-size: 32px;
+  color: #053282;
+  margin-bottom: 10px;
+}
+
+.vagaBox {
+  border: 1px solid #05328240;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #FFFFFF;
+  margin-bottom: 1rem;
+}
+
+.vagaHeader {
+  width: 100%;
+  background-color: #F5F082;
+  border: none;
+  color: #053282;
+  font-family: "Magnolia";
+  font-size: 20px;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.3s ease;
+}
+
+.headerActive {
+  background-color: #FAE128;
+}
+
+.icon {
+  color: #053282;
+  font-size: 20px;
+}
+
+.vagaContent {
+  background-color: #FFFFFF;
+  padding: 1.5rem;
+  border-top: 1px solid #ececec;
+}
+
+.preBlock {
+  white-space: pre-wrap;
+  font-family: "FinalSix";
+  font-size: 16px;
+  color: #0F4196;
+  line-height: 1.7;
+}
+
+
+.nutriContent {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #0F419630;
+  padding: 1.4rem;
+  border-radius: 12px;
+}
+
+.nutriPorcao {
+  font-family: "FinalSix";
+  font-size: 13px;
+  color: #053282;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.nutriGrid {
+  display: grid;
+  grid-template-columns: 2fr 1.2fr 0.7fr;
+  gap: 12px 20px;
+  border-top: 1px solid #ececec;
+  padding-top: 1rem;
+}
+
+.nutriItem {
+  display: contents;
+}
+
+.nutriTitulo,
+.nutriQuantidade,
+.nutriVD {
+  font-family: "FinalSix";
+  font-size: 16px;
+  color: #053282;
+}
+
+.nutriQuantidade {
+  color: #0F4196;
+}
+
+
+.nutriVD {
+  color: #8a8a8a;
+  text-align: center;
+  font-weight: 600;
+}
+
+.nutriObs {
+  margin-top: 1.8rem;
+  font-family: "FinalSix";
+  font-size: 13px;
+  color: #8a8a8a;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+@media (max-width: 1024px) {
+  .careersSection {
+    padding: 3rem 1.5rem;
+  }
+
+  .title {
+    margin-top: 4rem;
+    font-size: 32px;
+  }
+
+  .vagasTitle {
+    font-size: 24px;
+  }
+
+  .imageWrapper {
+    min-height: 380px;
+    max-height: 420px;
+  }
+
+  .subtitle {
+    margin-bottom: 50px;
+    font-size: 16px;
+  }
+
+  .vagaHeader {
+    font-size: 18px;
+  }
+
+  .nutriGrid {
+    grid-template-columns: 1fr 1fr 0.8fr;
+  }
+
+  .nutriGrid {
+    grid-template-columns: 1.6fr 1fr 0.8fr;
+    gap: 10px 14px;
+  }
+
+  .nutriTitulo,
+  .nutriQuantidade,
+  .nutriVD {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .imageWrapper {
+    min-height: 300px;
+  }
+
+  .preBlock {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  
+
+  .nutriTitulo {
+    font-size: 10px;
+  }
+
+  .nutriQuantidade {
+    font-size: 10px;
+  }
+
+  .nutriVD {
+    font-size: 10px;
+  }
+
+  .nutriContent {
+    padding: 1rem;
+  }
+}

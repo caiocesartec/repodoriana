@@ -1,0 +1,102 @@
+.footerContainer {
+  padding: 24px;
+  background-color: #006efa;
+  color: #faebc8;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0px 10rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.footerBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footerSocial {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerSocial a {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footerSocial a:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.columnsWrapper {
+  display: flex;
+  gap: 3rem;
+  justify-content: flex-start;
+}
+
+.footerColumn {
+  min-width: 150px;
+}
+
+.footerTitle {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #faebc8;
+}
+
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerList a {
+  color: #faebc8;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.footerList a:hover {
+  text-decoration: underline;
+}
+
+.footerDivider {
+  border: none;
+  border-top: 1px solid #0f4196;
+  opacity: 0.3;
+  margin: 1rem 0;
+}
+
+.footerCopy {
+  text-align: center;
+  font-size: 12px;
+  color: #faebc8;
+}
+
+@media (max-width: 1024px) {
+  .footerContent {
+    /* flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .columnsWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}

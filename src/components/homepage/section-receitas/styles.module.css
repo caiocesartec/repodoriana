@@ -1,0 +1,91 @@
+.receitasSection {
+  position: relative;
+  width: 100%;
+  min-height: 61vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background: hsla(213, 94%, 26%, 0.3);
+  padding: 4rem 2rem;
+  min-height: 61vh;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.tag {
+  display: inline-block;
+  color: #053282;
+  font-family: "FinalSix";
+  font-size: .85rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  width: 70px;
+  height: 2px;
+  background-color: #053282;
+  margin: 4px auto 0;
+}
+
+.title {
+  font-family: "Magnolia";
+  font-size: 74px;
+  font-weight: 700;
+  color: #FACD0A;;
+}
+
+.subtitle {
+  font-size: 19px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  color: #FFFFFF;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.receitasSwiper {
+  position: static;
+  margin-top: 1rem;
+}
+
+.receitasSwiper :global(.swiper-pagination) {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 26px
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+}
