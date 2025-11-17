@@ -18,18 +18,16 @@ export const SectionEquipe = () => {
 
         <div className={styles.text}>
           <h3 className={styles.tag}>
-            Gente aberta a curtir o que existe de melhor.
+            Idela para todos os cenários
           </h3>
           <p className={styles.textDescription}>
-            Falamos com pessoas que têm um apetite insaciável por delícias e um
-            gosto pela vida que inspira. Aqui, convidamos todos a fazer parte dessa
-            onda deliciosa afinal, não há nada tão bom que não possa virar uma Delícia.
+           Pode inventar receitas com Doriana também. Ou deixar ainda mais gostosas suas receitas preferidas.
           </p>
         </div>
 
         <div className={styles.imageWrapper}>
           <Image
-            src="/genericas/Chamadas_2.png"
+            src="/genericas/Chamadas_2.jpg"
             alt="Delícia - equipe"
             width={600}
             height={400}

@@ -9,7 +9,7 @@ export const SectionAbout = () => {
         
         <div className={styles.imageWrapper}>
           <Image
-            src="/genericas/Chamadas.png"
+            src="/genericas/Chamadas.jpeg"
             alt="imagem reservada"
             width={600}
             height={400}
@@ -20,15 +20,12 @@ export const SectionAbout = () => {
 
         <div className={styles.textContent}>
           <span className={styles.tag}>
-            Estamos aqui para que a vida vire uma Delicia.
+            Longa Vida
             <div className={styles.divider}></div>
           </span>
 
           <p className={styles.description}>
-            Nosso apetite insaciável por uma vida deliciosa transforma cada momento 
-            em algo que vale a pena saborear. Acreditamos que não há nada tão bom 
-            que não possa virar uma Delícia, das receitas às relações, do astral 
-            ao cotidiano.
+            Doriana foi a primeira margarina cremosa do Brasil. Em 1970, Doriana é lançada no Brasil e conquista a todos com um produto cremoso e de qualidade sem igual.                            
           </p>
 
           <Link href="/sobre">

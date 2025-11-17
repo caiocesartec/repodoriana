@@ -8,9 +8,11 @@ export const SectionReceitas = async ({ receitas }) => {
 
   const subtitleContent = hasReceitas ? (
     <>
-      Acreditamos que a vida merece ser uma Delícia e estamos aqui para
-      transformar <br /> qualquer hora do dia, do café da manhã ao preparo das
-      receitas.
+      Doriana está com uma receita,
+mais saborosa e muito mais cremosa. 
+Pãozinho, torrada, bolo, tudo fica mais gostoso com a 
+Doriana. E toda receita que você prepara com ela, também. 
+#PodeEspalhar.
     </>
   ) : (
     <>No momento não temos receitas cadastradas.</>

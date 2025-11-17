@@ -34,13 +34,12 @@ export const SectionNews = () => {
   return (
     <section className={styles.section_two}>
       <div className={styles.container}>
-        <SectionTitle width="380px">A cremosa de Verdade</SectionTitle>
+        <SectionTitle width="380px">Doriana tem cremosidade e sabor sem igual.</SectionTitle>
 
         <p className={styles.description}>
-          Todas podem ser cremosas, mas só Delícia é cremoooosa DE VERDADE.
-          Somos a única margarina com creme de leite do mercado, que além de ter
-          uma textura ultra-mega-blaster cremosa, é mais fácil de espalhar e
-          muito mais indulgente para você.
+       No Brasil, a gente está sempre se reinventando.
+E na cozinha, os brasileiros não param de inventar
+novos sabores, novas combinações, novos pratos
         </p>
 
         <div className={styles.fullBarWrapper}>
@@ -82,11 +81,8 @@ export const SectionNews = () => {
 
         <SectionTitle>Nossos Produtos</SectionTitle>
        <p className={styles.description}>
-          Texturas que ajudam a significar
-          nossa origem, trazem um tom
-          de criatividade e um convite a
-          exploramos todas as possibilidades
-          que a margarina oferece na culinária.
+          A receita garante mais sabor e cremosidade para as suas refeições. 
+Em opções com sal e sem sal, disponíveis em todo o país.
         </p>
 
 

@@ -10,7 +10,7 @@ export const HeaderMobile = () => {
     <header className={styles.headerMobile}>
       <Link href="/">
         <Image
-          src="/logos/delicia-branco-high.png"
+          src="/logos/Doriana-Logo-Blur-RGB-210913.png"
           alt="reservado"
           width={181}
           height={63}

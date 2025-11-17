@@ -68,9 +68,9 @@ export const Footer = () => {
           <div className={styles.footerBrand}>
             <Link href="/">
               <Image
-                src="/logos/delicia-branco-high.png"
+                src="/logos/Doriana-Logo-Blur-RGB-210913.png"
                 alt="Delícia"
-                width={120}
+                width={178}
                 height={90}
                 quality={100}
               />

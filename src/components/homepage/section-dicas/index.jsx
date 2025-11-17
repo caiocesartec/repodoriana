@@ -9,9 +9,7 @@ export const SectionDicas = async ({ dicas }) => {
 
   const subtitleContent = hasDicas ? (
     <>
-      Acreditamos que a vida merece ser uma Delícia e estamos aqui para
-      transformar <br /> qualquer hora do dia com dicas especiais para o seu dia
-      a dia.
+   Pode inventar e espalhar onde quiser: prova Doriana no pão na chapa, na tapioca, no bolo de cenoura, na torrada, no panetone.
     </>
   ) : (
     <>No momento não temos dicas cadastradas.</>

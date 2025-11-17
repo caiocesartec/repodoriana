@@ -5,30 +5,22 @@ import Link from "next/link";
 
 const cards = [
   {
-    icon: "/produtos/pote-creme-500.png",
-    title: "Delicia com creme de leite",
-    text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
+    icon: "/produtos/Mkp Pote IML 1kg Marg Dor Crem CS - Ang Fr - LOW.png",
+    title: "Doriana Cremosa Com Sal",
+    text: "A receita garante mais sabor e cremosidade para as suas refeições. Em opções com sal e sem sal, disponíveis em todo o país.",
   },
   {
-    icon: "/produtos/pote-creme-500.png",
-    title: "Delicia com creme de leite",
-    text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
+    icon: "/produtos/Mkp Pote IML 1kg Marg Dor Crem SS - Ang Fr - LOW.png",
+    title: "Doriana Cremosa Sem Sal",
+    text: "A receita garante mais sabor e cremosidade para as suas refeições. Em opções com sal e sem sal, disponíveis em todo o país.",
+
   },
   {
-    icon: "/produtos/pote-ervas-500.png",
-    title: "Delícia Toque de Chef com Ervas Aromáticas",
-    text: "A margarina Delícia Toque de Chef com Ervas Aromáticas é feita com pedacinhos de ervas, de verdade, acredita? ",
+    icon: "Mkp Pote IML 500g Marg Dor Light CS - Ang Fr - LOW.png",
+    title: "Doriana Light",
+    text: "Mais leveza e sabor no preparo dos seus pratos. Sempre com a cremosidade da Doriana.",
   },
-  {
-    icon: "/produtos/pote-alho-500.png",
-    title: "Delícia Toque de Chef com Alho e Cebola",
-    text: "A margarina Delícia Toque de Chef com Alho e Cebola é feita com pedacinhos de alho e de cebola e, de verdade, sabia? ",
-  },
-  {
-    icon: "/produtos/pote-supreme-500.png",
-    title: "Delicia Supreme",
-    text: "A Delícia Supreme é a margarina amanteigada feita com creme de leite..",
-  },
+  
 ];
 
 export const SectionPracticeAreas = () => {
