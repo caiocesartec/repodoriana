@@ -32,35 +32,67 @@ export const SectionDicas = async ({ dicas }) => {
     
         <div className={styles.fullBarWrapper}>
           <div className={styles.fullBarTrack}>
-            <Image
-              src="/genericas/barra_01.jpg"
+                <Image
+              src="/genericas/barra_01.png"
               alt="Barra decorativa 1"
               width={600}
-              height={120}
+              height={220}
               className={styles.fullBar}
               quality={100}
             />
             <Image
-              src="/genericas/barra_02.jpg"
+              src="/genericas/barra_02.png"
               alt="Barra decorativa 2"
               width={600}
-              height={120}
+              height={220}
               className={styles.fullBar}
               quality={100}
             />
             <Image
-              src="/genericas/barra_01.jpg"
+              src="/genericas/barra_01.png"
               alt="Barra decorativa 1 repeate"
               width={600}
-              height={120}
+              height={220}
               className={styles.fullBar}
               quality={100}
             />
             <Image
-              src="/genericas/barra_02.jpg"
+              src="/genericas/barra_02.png"
               alt="Barra 2 repeat"
               width={600}
-              height={120}
+              height={220}
+              className={styles.fullBar}
+              quality={100}
+            />
+                 <Image
+              src="/genericas/barra_03.png"
+              alt="Barra decorativa 1 repeate"
+              width={600}
+              height={220}
+              className={styles.fullBar}
+              quality={100}
+            />
+            <Image
+              src="/genericas/barra_04.png"
+              alt="Barra 2 repeat"
+              width={600}
+              height={220}
+              className={styles.fullBar}
+              quality={100}
+            />
+             <Image
+              src="/genericas/barra_01.png"
+              alt="Barra decorativa 1"
+              width={600}
+              height={220}
+              className={styles.fullBar}
+              quality={100}
+            />
+            <Image
+              src="/genericas/barra_02.png"
+              alt="Barra decorativa 2"
+              width={600}
+              height={220}
               className={styles.fullBar}
               quality={100}
             />
