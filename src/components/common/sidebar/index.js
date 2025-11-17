@@ -23,10 +23,10 @@ export default function Sidebar() {
         />
       </Link>
 
-          <Link href="/#">
+          <Link href="https://www.instagram.com/doriana/">
         <Image
           src="/icones/iInstagramm.png"
-          alt="Facebook"
+          alt="Instagram"
           width={38}
           height={38}
           quality={100}
