@@ -34,7 +34,7 @@
 
 .tag {
   display: inline-block;
-  color: #053282;
+  color: #330672;
   font-family: "FinalSix";
   font-size: .85rem;
   position: relative;
@@ -44,7 +44,7 @@
 .divider {
   width: 70px;
   height: 2px;
-  background-color: #053282;
+  background-color: #330672;
   margin: 4px auto 0;
 }
 

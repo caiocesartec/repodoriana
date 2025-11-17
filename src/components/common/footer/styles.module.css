@@ -1,7 +1,7 @@
 .footerContainer {
   padding: 24px;
-  background-color: #006efa;
-  color: #faebc8;
+  background-color: #330672;
+  color: #ffffff;
   width: 100%;
   font-size: 12px;
   font-weight: 700;
@@ -53,7 +53,7 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: #faebc8;
+  color: #ffffff;
 }
 
 .footerList {
@@ -63,7 +63,7 @@
 }
 
 .footerList a {
-  color: #faebc8;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   font-size: 12px;
@@ -75,7 +75,7 @@
 
 .footerDivider {
   border: none;
-  border-top: 1px solid #0f4196;
+  border-top: 1px solid #330672;
   opacity: 0.3;
   margin: 1rem 0;
 }
@@ -83,7 +83,7 @@
 .footerCopy {
   text-align: center;
   font-size: 12px;
-  color: #faebc8;
+  color: #ffffff;
 }
 
 @media (max-width: 1024px) {

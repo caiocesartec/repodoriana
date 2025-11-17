@@ -1,13 +1,10 @@
 .sidebar {
   width: 64px;
   height: 100dvh;
-  background: rgba(15, 64, 150, 0.95);
-
-
+  background: rgba(51, 6, 114, 0.95);
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #1E253C;
   border-bottom: none;
   position: fixed;
   z-index: 99;

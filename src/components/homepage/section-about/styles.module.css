@@ -42,7 +42,7 @@
 
 .tag {
   font-size: 64px;
-  color: #053282;
+  color: #330672;
   letter-spacing: 1px;
   font-weight: 800;
   font-family: "Magnolia";
@@ -53,7 +53,7 @@
 .divider {
   width: 80px;
   height: 2px;
-  background-color: #053282;
+  background-color: #330672;
   margin-top: 4px;
 }
 
@@ -61,7 +61,7 @@
 .description {
   font-size: 19px;
   line-height: 1.6;
-  color: #0f4196;
+  color: #330672;
   font-weight: 100;
 }
 

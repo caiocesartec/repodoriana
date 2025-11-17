@@ -1,14 +1,14 @@
 .aboutSection {
   padding: 5rem 2rem;
-  background: #FAEBC8;
-  color: #053282;
+  background: #ffffff;
+  color: #330672;
   text-align: center;
 }
 
 .heroPhrase {
   font-family: "Magnolia";
   font-size: 48px;
-  color: #053282;
+  color: #330672;
   margin-bottom: 1rem;
 }
 
@@ -27,7 +27,7 @@
   line-height: 44px;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #0f4196;
+  color: #330672;
 }
 
 .subtitle {
@@ -36,7 +36,7 @@
   line-height: 32px;
   margin: 0 auto 70px auto;
   max-width: 900px;
-  color: #0F4196;
+  color: #330672;
 }
 
 
@@ -71,11 +71,11 @@
   font-family: "FinalSix";
   font-size: 18px;
   line-height: 1.7;
-  color: #053282;
+  color: #330672;
 }
 
 .textBlock strong {
-  color: #006EFA;
+  color: #330672;
 }
 
 .finalImageWrapper {

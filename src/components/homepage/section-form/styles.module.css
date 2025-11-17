@@ -6,7 +6,7 @@
 }
 
 .newsletterBox {
-  background: #053282;
+  background: #330672;
   border-radius: 40px;
   padding: 0;
   max-width: 900px;
@@ -22,7 +22,7 @@
 }
 
 .title {
-  color: #faebc8;
+  color: #ffffff;
   font-size: 32px;
   text-align: center;
   margin-bottom: 2rem;
@@ -67,7 +67,7 @@
 }
 
 .label {
-  color: #faebc8;
+  color: #ffffff;
   margin-bottom: 6px;
   font-size: 16px;
   font-family: FinalSix;
@@ -98,7 +98,7 @@
 }
 
 .checkboxLabel {
-  color: #faebc8;
+  color: #ffffff;
   font-size: 16px;
   font-family: FinalSix;
 }
@@ -129,7 +129,7 @@
 
 .submitBtn:hover {
   background: #facd0a;
-  color: #053282;
+  color: #330672;
 }
 
 .disabled {
@@ -147,7 +147,7 @@
   background: #facd0a;
   padding: 8px 14px;
   border-radius: 6px;
-  color: #053282;
+  color: #330672;
   font-weight: bold;
   text-align: center;
   font-family: FinalSix;
@@ -155,7 +155,7 @@
 
 .errorBox {
   background: #f44336;
-  color: #faebc8;
+  color: #ffffff;
   padding: 0.8rem;
   border-radius: 10px;
   text-align: center;
@@ -165,8 +165,8 @@
 .successOverlay {
   position: absolute;
   inset: 0;
-  background: #053282;
-  color: #faebc8;
+  background: #330672;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,5 +201,5 @@
 
 .successBtn:hover {
   background: #facd0a;
-  color: #053282;
+  color: #330672;
 }

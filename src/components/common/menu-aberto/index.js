@@ -56,22 +56,12 @@ export const OpenMenu = () => {
           </li>
           <li>
             <Link href="/#" onClick={() => setIsOpen(false)}>
-              Produtos
-            </Link>
-          </li>
-          <li>
-            <Link href="/#" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
           <li>
             <Link href="/sobre" onClick={() => setIsOpen(false)}>
               Nossa História
-            </Link>
-          </li>
-          <li>
-            <Link href="/#" onClick={() => setIsOpen(false)}>
-              Fale Conosco
             </Link>
           </li>
         </ul>

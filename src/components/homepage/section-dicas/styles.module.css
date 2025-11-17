@@ -34,7 +34,7 @@
 
 .tag {
   display: inline-block;
-  color: #053282;
+  color: #330672;
   font-family: "FinalSix";
   font-size: .85rem;
   position: relative;
@@ -44,7 +44,7 @@
 .divider {
   width: 70px;
   height: 2px;
-  background-color: #053282;
+  background-color: #330672;
   margin: 4px auto 0;
 }
 
@@ -53,7 +53,7 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #0f4196;
+  color: #330672;
 }
 
 .subtitle {
@@ -61,7 +61,7 @@
   max-width: 800px;
   margin: 0 auto 3rem;
   line-height: 1.6;
-  color: #0f4196;
+  color: #330672;
 }
 
 .carouselWrapper {
@@ -91,8 +91,8 @@
 
 .fullBarWrapper {
   margin: 3rem 0;
-  border-top: 2px solid #0f4196;
-  border-bottom: 2px solid #0f4196;
+  border-top: 2px solid #330672;
+  border-bottom: 2px solid #330672;
   overflow: hidden;
   width: calc(100vw + 4rem);
   left: 50%;
