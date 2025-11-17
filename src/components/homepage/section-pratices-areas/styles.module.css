@@ -15,7 +15,7 @@
   letter-spacing: 1px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "FinalSix";
+  font-family: "Gotham";
   display: inline-block;
 }
 
@@ -29,7 +29,7 @@
   font-size: 24px;
   margin-top: 1rem;
   font-weight: 700;
-  font-family: "FinalSix";
+  font-family: "Gotham";
   color: #330672;
 }
 
@@ -71,7 +71,7 @@
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  font-family: "FinalSix";
+  font-family: "Gotham";
   margin-bottom: 0.5rem;
 }
 
@@ -79,8 +79,8 @@
   font-size: 14px;
   line-height: 1.5;
   color: #f5f082;
-  font-family: "FinalSix";
-  font-weight: 500;
+  font-family: "Gotham";
+  font-weight: 400;
 
 }
 
@@ -94,7 +94,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: "FinalSix";
+  font-family: "Gotham";
 }
 
 .button:hover {

@@ -44,8 +44,8 @@
   font-size: 64px;
   color: #330672;
   letter-spacing: 1px;
-  font-weight: 800;
-  font-family: "Magnolia";
+  font-weight: 900;
+  font-family: "Gotham";
   margin-bottom: 9px;
   line-height: 75px;
 }
@@ -62,7 +62,7 @@
   font-size: 19px;
   line-height: 1.6;
   color: #330672;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .button {
@@ -76,7 +76,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: fit-content;
-  font-family: "FinalSix";
+  font-family: "Gotham";
 }
 
 .button:hover {

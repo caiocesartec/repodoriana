@@ -44,11 +44,11 @@
 .textWrapper {
   color: #1C2033;
   line-height: 1.6;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gotham', sans-serif;
 }
 
 .textWrapper h2 {
-  font-family: "FinalSix";
+  font-family: "Gotham";
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;

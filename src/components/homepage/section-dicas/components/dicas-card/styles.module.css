@@ -35,15 +35,14 @@
 }
 
 .titulo {
-  font-family: "FinalSix";
+  font-family: "Gotham";
   color: #330672;
   margin-bottom: 12px;
-
-
+  font-weight: 700;
 }
 
 .descricao {
-  font-family: "FinalSix";
+  font-family: "Gotham";
   font-weight: 100;
   color: #000000;
   font-size: 16px;

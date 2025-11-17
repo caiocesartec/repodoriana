@@ -17,9 +17,9 @@
 
 .title {
     font-size: 34px;
-    font-weight: 800;
+    font-weight: 900;
     color: #330672;
-    font-family: FinalSix;
+    font-family: "Gotham";
     max-width: 380px;
     margin: 0 auto 1rem;
 }
@@ -33,9 +33,9 @@
 
 .description {
     font-size: 19px;
-    font-weight: 100;
     color: #330672;
     line-height: 1.6;
+    font-family: "Gotham";
 }
 .productsGrid {
     margin-top: 3rem;
@@ -66,7 +66,7 @@
 }
 
 .productTitle {
-    font-family: Magnolia;
+    font-family: "Gotham";
     font-size: 33px;
     font-weight: 800;
     color: #330672;
@@ -86,7 +86,7 @@
         margin-left: 0px;
     }
     .productTitle {
-        font-family: Magnolia;
+        font-family: "Gotham";
         font-size: 23px;
         font-weight: 800;
         color: #330672;

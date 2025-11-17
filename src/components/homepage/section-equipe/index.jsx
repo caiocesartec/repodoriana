@@ -18,7 +18,7 @@ export const SectionEquipe = () => {
 
         <div className={styles.text}>
           <h3 className={styles.tag}>
-            Idela para todos os cenários
+            Ideal para todos os cenários
           </h3>
           <p className={styles.textDescription}>
            Pode inventar receitas com Doriana também. Ou deixar ainda mais gostosas suas receitas preferidas.

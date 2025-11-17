@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 1rem;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .newsletterBox {
@@ -13,12 +13,12 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .inner {
   padding: 3rem 3.5rem;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .title {
@@ -27,27 +27,27 @@
   text-align: center;
   margin-bottom: 2rem;
   font-weight: 400;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .highlight {
   color: #facd0a;
-  font-weight: 700;
-  font-family: FinalSix;
+  font-weight: 900;
+  font-family: "Gotham";
 }
 
 .row {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .twoColumns {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 @media (min-width: 768px) {
@@ -63,14 +63,14 @@
 .formGroup {
   display: flex;
   flex-direction: column;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .label {
   color: #ffffff;
   margin-bottom: 6px;
   font-size: 16px;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .input {
@@ -80,34 +80,34 @@
   outline: none;
   font-size: 16px;
   background: white;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .checkboxGroup {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .checkbox {
   width: 22px;
   height: 22px;
-  font-family: FinalSix;
+  font-family: "Gotham";
   flex-shrink: 0;
 }
 
 .checkboxLabel {
   color: #ffffff;
   font-size: 16px;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .buttonWrapper {
   display: flex;
   justify-content: flex-end;
   margin-top: 1rem;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .submitBtn {
@@ -124,7 +124,7 @@
   cursor: pointer;
   transition: 0.3s;
   text-transform: uppercase;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .submitBtn:hover {
@@ -135,12 +135,12 @@
 .disabled {
   opacity: 0.6;
   pointer-events: none;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .sendingBox {
   margin-top: 10px;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .sendingAlert {
@@ -150,7 +150,7 @@
   color: #330672;
   font-weight: bold;
   text-align: center;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .errorBox {
@@ -159,7 +159,7 @@
   padding: 0.8rem;
   border-radius: 10px;
   text-align: center;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .successOverlay {
@@ -170,19 +170,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .successContent {
   text-align: center;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .successMsg {
   font-size: 22px;
   margin-bottom: 1rem;
   display: block;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .successBtn {
@@ -196,7 +196,7 @@
   cursor: pointer;
   transition: 0.3s;
   text-transform: uppercase;
-  font-family: FinalSix;
+  font-family: "Gotham";
 }
 
 .successBtn:hover {

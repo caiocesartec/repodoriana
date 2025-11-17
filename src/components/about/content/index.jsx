@@ -4,63 +4,58 @@ import styles from "./styles.module.css";
 export const AboutContent = () => {
   return (
     <section className={styles.aboutSection}>
-      
       <h1 className={styles.heroPhrase}>
-        A vida merece ser uma <span>Delícia</span>
+        Doriana.
+        <br />
+        <span>Quem prova, ama.</span>
       </h1>
 
       <p className={styles.subtitle}>
-        Delícia é a única margarina feita com creme de leite e chegou para virar o jogo.
-        Acreditamos que cada momento do dia merece sabor, leveza e aquele toque
-        que transforma o simples em especial.
+        No Brasil, a gente está sempre se reinventando. E na cozinha, os
+        brasileiros não param de inventar novos sabores, novas combinações e
+        novos pratos.
       </p>
 
       <div className={styles.contentWrapper}>
-        {/* <div className={styles.imageWrapper}>
-          <Image
-            src="/banners/Banner_Mochilinha.png"
-            alt="Delícia"
-            fill
-            className={styles.image}
-            quality={100}
-          />
-        </div> */}
-
         <div className={styles.textBlock}>
           <p>
-            Quando todo mundo dizia que margarina era tudo igual, a gente decidiu mudar o jogo.
-            Delícia é a única margarina com creme de leite de verdade. Enquanto outras se diziam
-            cremosas, nós fomos lá e mostramos o que é ser <strong>cremoooosa de verdade</strong>.
+            Por isso, Doriana também se reinventou. Agora a Doriana é mais
+            saborosa e muito mais cremosa. Pode provar que você vai amar. Pode
+            espalhar Doriana no pão quentinho que é impossível não gostar.
           </p>
 
           <p>
-            Não somos só para o café da manhã. Delícia com creme de leite combina com qualquer
-            hora do dia – e é justamente isso que faz tudo ganhar mais sabor, mais brilho e mais
-            vontade de repetir.
+            Pode inventar e espalhar onde quiser: prova Doriana no pão na chapa,
+            na tapioca, no bolo de cenoura, na torrada, no panetone.
           </p>
 
           <p>
-            Nossa missão é simples: transformar o cotidiano. A cada receita, perguntamos:
-            por que não fazer delicioso? Porque vida boa é vida saboreada. É viver leve,
-            viver gostoso, viver do nosso jeito.
+            Pode inventar receitas com Doriana também. Ou deixar ainda mais
+            gostosas suas receitas preferidas.
           </p>
 
           <p>
-            Rimos alto, misturamos culturas, provamos novidades e abraçamos o inesperado.
-            A Delícia da vida é estar de braços abertos para o melhor que ela pode trazer.
+            Prova Doriana no refogado, na receita de bolo, de torta, de
+            brigadeiro. Prova em casa, na padaria, onde você quiser. Prova com a
+            família reunida na mesa.
           </p>
 
           <p>
-            Afinal, nada está tão bom que não possa ficar ainda mais Delícia.
+            E pode ter certeza: a família vai provar, aprovar e amar. E agora
+            que você já ama o sabor e a cremosidade sem igual da Doriana, que
+            tal espalhar pra todo mundo?
+          </p>
+
+          <p>
+            <strong>Doriana. Quem prova, ama. #PodeEspalhar</strong>
           </p>
         </div>
       </div>
 
       <div className={styles.finalImageWrapper}>
         <Image
-            src="/banners/Banner_Sobre-a-Marca_Desktop_1366x500px.jpg"
-
-          alt="Banner da Marca Delícia"
+          src="/genericas/sobre.jpeg"
+          alt="Banner da Marca Doriana"
           fill
           className={styles.finalImage}
           quality={100}

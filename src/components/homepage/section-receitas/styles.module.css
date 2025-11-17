@@ -35,7 +35,7 @@
 .tag {
   display: inline-block;
   color: #330672;
-  font-family: "FinalSix";
+  font-family: "Gotham";
   font-size: .85rem;
   position: relative;
   margin-bottom: 0.5rem;
@@ -49,9 +49,9 @@
 }
 
 .title {
-  font-family: "Magnolia";
+  font-family: "Gotham";
   font-size: 74px;
-  font-weight: 700;
+  font-weight: 900;
   color: #FACD0A;;
 }
 
@@ -60,6 +60,7 @@
   margin: 0 auto 3rem;
   line-height: 1.6;
   color: #FFFFFF;
+  font-family: "Gotham";
 }
 
 .cardsGrid {
