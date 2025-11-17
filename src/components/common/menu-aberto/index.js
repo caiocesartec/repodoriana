@@ -55,7 +55,7 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.doriana.com.br/receitas/" onClick={() => setIsOpen(false)}>
+            <Link href="https://www.doriana.com.br/receitas/" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
