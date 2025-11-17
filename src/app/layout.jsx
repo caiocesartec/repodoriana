@@ -22,8 +22,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Delicia",
-  description: "delicia",
+  title: "Doriana",
+  description: "doriana",
   author: "",
   icons: {
     icon: "/.",

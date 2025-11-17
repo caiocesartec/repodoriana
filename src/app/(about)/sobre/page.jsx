@@ -2,8 +2,8 @@ import { AboutContent } from "@/components/about/content";
 import { MissionVisionValues } from "@/components/about/missao-valores-visao";
 
 export const metadata = {
-  title: "Delicia",
-  description: "delicia",
+  title: "Doriana",
+  description: "Doriana",
   author: "",
   icons: {
     icon: "/",

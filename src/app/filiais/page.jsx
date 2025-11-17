@@ -3,8 +3,8 @@ import { getReceitas } from "@/lib/receitas";
 
 
 export const metadata = {
-  title: "Delicia",
-  description: "delicia",
+  title: "Doriana",
+  description: "Doriana",
   author: "",
   icons: {
     icon: "/",
