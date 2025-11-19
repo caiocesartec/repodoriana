@@ -79,6 +79,8 @@
 .text {
   flex: 1;
   min-width: 300px;
+  transform: translateX(calc(-30% - -90px));
+
 }
 
 .subtitle {
