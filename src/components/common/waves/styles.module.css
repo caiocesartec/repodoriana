@@ -1,0 +1,9 @@
+.wave {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.down {
+  transform: rotateX(180deg);
+}

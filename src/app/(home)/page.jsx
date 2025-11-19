@@ -28,7 +28,6 @@ const HomePage = async () => {
         <SectionBanner />
         <SectionNews novidades={novidades} />
         <SectionAbout />
-        {/* <SectionPracticeAreas /> */}
         <SectionReceitas receitas={receitas} />
         <SectionEquipe />
         <FormSection />
