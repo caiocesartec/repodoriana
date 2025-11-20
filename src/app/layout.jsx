@@ -2,7 +2,6 @@ import { Geist, Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/common/footer";
 import Sidebar from "@/components/common/sidebar";
-// import { WhatsAppButton } from "@/components/common/whatsapp-button";
 import { HeaderMobile } from "@/components/common/header-mobile";
 import { HeaderWrapper } from "@/components/common/header/wrapper";
 
@@ -22,8 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Doriana",
-  description: "doriana",
+  title: "Doriana NOVO",
+  description: "Doriana",
   author: "",
   icons: {
     icon: "/.",

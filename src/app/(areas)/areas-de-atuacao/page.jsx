@@ -3,7 +3,7 @@ import { AreasContent } from "@/components/areas/content";
 
 
 export const metadata = {
-  title: "Doriana",
+ title: "Doriana NOVO",
   description: "Doriana",
   author: "",
   icons: {

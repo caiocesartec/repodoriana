@@ -36,9 +36,10 @@
 
 .titulo {
   font-family: "Gotham";
-  color: #330672;
+  color: #0f4196;
   margin-bottom: 12px;
-  font-weight: 700;
+
+
 }
 
 .descricao {
@@ -53,7 +54,7 @@
 .divisor {
   border: none;
   height: 1px;
-  background-color: #330672;
+  background-color: #0f4196;
   margin: 0.75rem 0;
 }
 

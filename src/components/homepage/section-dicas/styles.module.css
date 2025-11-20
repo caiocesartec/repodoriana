@@ -1,8 +1,10 @@
 .dicasSection {
   position: relative;
   width: 100%;
-  min-height: 61vh;
+  height: 670px;
   overflow: hidden;
+  background-color: rgb(51, 6, 114);
+  padding-left: 63px;
 }
 
 .backgroundImage {
@@ -34,40 +36,36 @@
 
 .tag {
   display: inline-block;
-  color: #330672;
-  font-family: "Gotham";
+  color: #0f4196;
+  font-family: Gotham;
   font-size: .85rem;
   position: relative;
   margin-bottom: 0.5rem;
 }
 
-.divider {
-  width: 70px;
-  height: 2px;
-  background-color: #330672;
-  margin: 4px auto 0;
-}
-
 .title {
-  font-family: "Gotham";
+  font-family: Gotham;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #330672;
+  color: #0f4196;
 }
 
 .subtitle {
-  font-size: 1rem;
-  max-width: 800px;
-  margin: 0 auto 3rem;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 12px auto 0;
+  padding-bottom: 20px;
+  font-size: 19px;
+  font-weight: 100;
   line-height: 1.6;
-  color: #330672;
-  font-weight: 400;
-  font-family: "Gotham";
+  color: #ffffff !important;
 }
 
 .carouselWrapper {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .dicasSwiper {
@@ -84,49 +82,21 @@
 
 @media (max-width: 1024px) {
   .title {
-    font-size: 18px;
+    font-size: 32px;
   }
+
   .subtitle {
-    font-size: 12px;
+    width: 70%;
+    font-size: 16px;
+  }
+
+  .dicasSection {
+    padding-left: 0px;
   }
 }
 
-.fullBarWrapper {
-  margin: 3rem 0;
-  border-top: 2px solid #330672;
-  border-bottom: 2px solid #330672;
-  overflow: hidden;
-  width: calc(100vw + 4rem);
-  left: 50%;
-  margin-left: calc(-50vw - 2rem);
-  position: relative;
-  height: 90px;
-  margin-top: 90px;
-}
-
-.fullBarTrack {
-  display: flex;
-  width: max-content;
-  height: 100%;
-}
-
-.fullBar {
-  object-fit: cover;
-  height: 100%;
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .fullBarWrapper {
-    width: 100vw;
-    margin-left: -50vw;
-    left: 50%;
-    height: 90px;
-    border-width: 4px;
-  }
-
-  .fullBar {
-    height: 90px;
+@media (max-width: 890px) {
+  .dicasSection {
+    height: 740px;
   }
 }
-

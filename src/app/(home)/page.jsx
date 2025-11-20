@@ -1,14 +1,15 @@
 import { SectionAbout } from "@/components/homepage/section-about";
+import { SectionAboutTwo } from "@/components/homepage/section-about-two";
 import { SectionBanner } from "@/components/homepage/section-banner";
 import { SectionEquipe } from "@/components/homepage/section-equipe";
 import { SectionReceitas } from "@/components/homepage/section-receitas";
-import { SectionNews } from "@/components/homepage/section-news";
-import { SectionPracticeAreas } from "@/components/homepage/section-pratices-areas";
+import { SectionTwoTop } from "@/components/homepage/section-two-top";
+import { SectionThreeProductShow } from "@/components/homepage/section-three-product-show";
 import {getReceitas } from "@/lib/receitas";
 import { FormSection } from "@/components/homepage/section-form";
 
 export const metadata = {
-  title: "Doriana",
+  title: "Doriana NOVO",
   description: "Doriana",
   author: "",
   icons: {
@@ -26,9 +27,12 @@ const HomePage = async () => {
     <section className="all-content">
       <main className="content-pagee">
         <SectionBanner />
-        <SectionNews novidades={novidades} />
+        <SectionTwoTop novidades={novidades} />
+        <SectionThreeProductShow />
         <SectionAbout />
+        {/* <SectionPracticeAreas /> */}
         <SectionReceitas receitas={receitas} />
+        <SectionAboutTwo />
         <SectionEquipe />
         <FormSection />
       </main>

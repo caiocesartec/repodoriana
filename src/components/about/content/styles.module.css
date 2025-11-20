@@ -1,27 +1,23 @@
 .aboutSection {
-  padding: 5rem 2rem;
+  padding: 5rem 4rem;
   background: #ffffff;
-  color: #330672;
+  color: #053282;
   text-align: center;
 }
 
 .heroPhrase {
   font-family: "Gotham";
-  font-size: 48px;
-  color: #330672;
-  margin-bottom: 1rem;
   font-weight: 900;
+  font-size: 48px;
+  color: #053282;
+  margin-bottom: 1rem;
 }
 
 .heroPhrase span {
-  color: #330672;
+  color: #053282;
   font-family: "Gotham";
   font-weight: 900;
-
-
 }
-
-
 
 .title {
   font-family: "Gotham";
@@ -30,7 +26,7 @@
   line-height: 44px;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #330672;
+  color: #0f4196 !important;
 }
 
 .subtitle {
@@ -39,12 +35,10 @@
   line-height: 32px;
   margin: 0 auto 70px auto;
   max-width: 900px;
-  color: #330672;
+  color: #0F4196 !important;
 }
 
-
 .contentWrapper {
-  display: flex;
   align-items: stretch;
   gap: 2rem;
   max-width: 1200px;
@@ -74,11 +68,15 @@
   font-family: "Gotham";
   font-size: 18px;
   line-height: 1.7;
-  color: #330672;
+  color: #053282 !important;
+}
+
+.textBlock p {
+  color: #053282 !important;
 }
 
 .textBlock strong {
-  color: #330672;
+  color: #053282 !important;
 }
 
 .finalImageWrapper {
@@ -140,3 +138,4 @@
     padding: 3rem 1rem;
   }
 }
+

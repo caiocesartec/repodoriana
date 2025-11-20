@@ -42,7 +42,7 @@ export const OpenMenu = () => {
               src="/logos/Doriana-Logo-Blur-RGB-210913.png"
               alt="Logo Doriana"
               width={226}
-              height={118}
+              height={138}
               quality={100}
             />
           </Link>

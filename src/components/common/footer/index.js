@@ -68,8 +68,8 @@ export const Footer = () => {
               <Image
                 src="/logos/Doriana-Logo-Blur-RGB-210913.png"
                 alt="Delícia"
-                width={178}
-                height={90}
+                width={221}
+                height={112}
                 quality={100}
               />
             </Link>

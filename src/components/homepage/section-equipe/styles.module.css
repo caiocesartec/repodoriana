@@ -1,6 +1,7 @@
-.equipeSection {
+.sectionWrapper {
   padding: 6rem 2rem;
   color: #ffffff;
+
 }
 .fullBarWrapper {
   margin-bottom: 0!important;
@@ -8,12 +9,13 @@
 
 .tag {
   display: inline-block;
-  color: #330672;
+  color: #0f4196;
   font-family: "Gotham";
+  font-weight: 900;
   font-size: 64px;
   position: relative;
   margin-bottom: 30px;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 75px;
   margin-left: 50px;
 }
@@ -21,11 +23,11 @@
 .trabalheConosco .tag {
   text-align: right;
 }
-  /* color: #330672; */
+  /* color: #0f4196; */
 
 .divider {
   height: 2px;
-  background-color: #330672;
+  background-color: #0f4196;
   margin-top: 4px;
 }
 
@@ -40,13 +42,13 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #330672;
+  color: #0f4196;
 }
 
 .description {
   font-size: 1rem;
   line-height: 1.6;
-  color: #330672;
+  color: #0f4196;
   margin-bottom: 2rem;
 }
 
@@ -65,6 +67,7 @@
 .button:hover {
   background-color: #a78558;
 }
+
 
 .trabalheConosco {
   display: flex;
@@ -88,13 +91,13 @@
   font-size: 24px;
   font-weight: 700;
   margin: 1rem 0;
-  color: #330672;
+  color: #0f4196;
 }
 
 .textDescription {
   font-size: 19px;
   line-height: 1.6;
-  color: #330672;
+  color: #0f4196;
   margin-bottom: 1.5rem;
   margin-left: 50px;
 }

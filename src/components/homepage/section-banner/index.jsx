@@ -27,9 +27,9 @@ const branches = [
   {
     image: "/banners/Banner_Cozinhando.jpg",
     imageMobile: "/banners/mobile/cozinhando.png",
-    title: "O sabor que surpreende",
-    text: "A única cremosa de verdade.",
-    textTwo: "Do fogão ao prato, tudo vira UOU!",
+    title: "Mais sabor, mais cremosidade",
+    text: "Pra cozinhar, espalhar e surpreender.",
+    textTwo: "Transforme o simples em deliciosamente incrível.",
   },
 ];
 

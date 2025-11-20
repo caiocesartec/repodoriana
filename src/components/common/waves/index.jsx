@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 
 
-export const Wave = ({ direction = "up", className, color = "#ffd100" }) => {
+export const Wave = ({ direction = "up", className, color = "#330672" }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

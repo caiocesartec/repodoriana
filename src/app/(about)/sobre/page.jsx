@@ -2,9 +2,8 @@ import { AboutContent } from "@/components/about/content";
 import { MissionVisionValues } from "@/components/about/missao-valores-visao";
 
 export const metadata = {
-  title: "Doriana",
+  title: "Doriana NOVO",
   description: "Doriana",
-  author: "",
   icons: {
     icon: "/",
   },
@@ -19,6 +18,6 @@ const AboutPage = () => {
       </main>
     </section>
   );
-}
+};
 
 export default AboutPage;

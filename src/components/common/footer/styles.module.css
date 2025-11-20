@@ -5,6 +5,7 @@
   width: 100%;
   font-size: 12px;
   font-weight: 700;
+  font-family: Gotham
 }
 
 
@@ -53,7 +54,7 @@
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .footerList {
@@ -75,7 +76,7 @@
 
 .footerDivider {
   border: none;
-  border-top: 1px solid #330672;
+  border-top: 1px solid #0f4196;
   opacity: 0.3;
   margin: 1rem 0;
 }

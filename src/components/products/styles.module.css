@@ -1,7 +1,6 @@
 .careersSection {
   padding: 4rem 3rem;
-  color: #330672;
-  background: #ffffff;
+  color: #0f4196;
 }
 
 .title {
@@ -9,19 +8,19 @@
   font-family: "Gotham";
   font-size: 42px;
   font-weight: 900;
-  color: #330672;
+  color: #0f4196;
   margin-bottom: 1rem;
 }
 
 .subtitle {
   font-family: "Gotham";
-  font-weight: 400;
-  color: #330672;
+  color: #0f4196;
   max-width: 1200px;
   margin: 0 auto 70px auto;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  font-weight: 900;
 }
 
 .contentWrapper {
@@ -58,12 +57,12 @@
 .vagasTitle {
   font-family: "Gotham";
   font-size: 32px;
-  color: #330672;
+  color: #0f4196;
   margin-bottom: 10px;
 }
 
 .vagaBox {
-  border: 1px solid #33067240;
+  border: 1px solid #CE102C40;
   border-radius: 10px;
   overflow: hidden;
   background: #FFFFFF;
@@ -74,7 +73,7 @@
   width: 100%;
   background-color: #F5F082;
   border: none;
-  color: #330672;
+  color: #0f4196;
   font-family: "Gotham";
   font-size: 20px;
   padding: 1.2rem;
@@ -91,7 +90,7 @@
 }
 
 .icon {
-  color: #330672;
+  color: #0f4196;
   font-size: 20px;
 }
 
@@ -106,7 +105,7 @@
   font-family: "Gotham";
   font-weight: 400;
   font-size: 16px;
-  color: #330672;
+  color: #0f4196;
   line-height: 1.7;
 }
 
@@ -114,7 +113,7 @@
 .nutriContent {
   width: 100%;
   background: #FFFFFF;
-  border: 1px solid #33067230;
+  border: 1px solid #CE102C30;
   padding: 1.4rem;
   border-radius: 12px;
 }
@@ -122,8 +121,8 @@
 .nutriPorcao {
   font-family: "Gotham";
   font-size: 13px;
-  color: #330672;
-  font-weight: 400;
+  color: #0f4196;
+  font-weight: 600;
   margin-bottom: 1.2rem;
 }
 
@@ -144,11 +143,11 @@
 .nutriVD {
   font-family: "Gotham";
   font-size: 16px;
-  color: #330672;
+  color: #0f4196;
 }
 
 .nutriQuantidade {
-  color: #330672;
+  color: #0f4196;
 }
 
 

@@ -6,7 +6,7 @@
 }
 
 .newsletterBox {
-  background: #330672;
+  background: #053282;
   border-radius: 40px;
   padding: 0;
   max-width: 900px;
@@ -19,6 +19,7 @@
 .inner {
   padding: 3rem 3.5rem;
   font-family: "Gotham";
+  background: #330672;;
 }
 
 .title {
@@ -32,7 +33,7 @@
 
 .highlight {
   color: #facd0a;
-  font-weight: 900;
+  font-weight: 700;
   font-family: "Gotham";
 }
 
@@ -57,6 +58,14 @@
 
   .formGroup {
     flex: 1;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .inner {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -88,19 +97,22 @@
   align-items: center;
   gap: 12px;
   font-family: "Gotham";
+
 }
 
 .checkbox {
   width: 22px;
   height: 22px;
   font-family: "Gotham";
+
   flex-shrink: 0;
 }
 
 .checkboxLabel {
   color: #ffffff;
-  font-size: 16px;
+   font-size: 16px;
   font-family: "Gotham";
+
 }
 
 .buttonWrapper {
@@ -108,6 +120,7 @@
   justify-content: flex-end;
   margin-top: 1rem;
   font-family: "Gotham";
+
 }
 
 .submitBtn {
@@ -125,6 +138,7 @@
   transition: 0.3s;
   text-transform: uppercase;
   font-family: "Gotham";
+
 }
 
 .submitBtn:hover {
@@ -132,15 +146,18 @@
   color: #330672;
 }
 
+
 .disabled {
   opacity: 0.6;
   pointer-events: none;
   font-family: "Gotham";
+
 }
 
 .sendingBox {
   margin-top: 10px;
   font-family: "Gotham";
+
 }
 
 .sendingAlert {
@@ -151,6 +168,7 @@
   font-weight: bold;
   text-align: center;
   font-family: "Gotham";
+
 }
 
 .errorBox {
@@ -160,22 +178,25 @@
   border-radius: 10px;
   text-align: center;
   font-family: "Gotham";
+
 }
 
 .successOverlay {
   position: absolute;
   inset: 0;
-  background: #330672;
+  background: #0f4196;
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Gotham";
+
 }
 
 .successContent {
   text-align: center;
   font-family: "Gotham";
+
 }
 
 .successMsg {
@@ -183,6 +204,7 @@
   margin-bottom: 1rem;
   display: block;
   font-family: "Gotham";
+
 }
 
 .successBtn {
@@ -197,9 +219,10 @@
   transition: 0.3s;
   text-transform: uppercase;
   font-family: "Gotham";
+
 }
 
 .successBtn:hover {
   background: #facd0a;
-  color: #330672;
+  color: #0f4196;
 }

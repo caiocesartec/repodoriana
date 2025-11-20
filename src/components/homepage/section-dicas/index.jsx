@@ -9,7 +9,8 @@ export const SectionDicas = async ({ dicas }) => {
 
   const subtitleContent = hasDicas ? (
     <>
-   Pode inventar e espalhar onde quiser: prova Doriana no pão na chapa, na tapioca, no bolo de cenoura, na torrada, no panetone.
+      Pode inventar e espalhar onde quiser: prova Doriana no pão na chapa, na
+      tapioca, no bolo de cenoura, na torrada, no panetone.
     </>
   ) : (
     <>No momento não temos dicas cadastradas.</>
@@ -29,100 +30,31 @@ export const SectionDicas = async ({ dicas }) => {
 
   return (
     <>
-    
-        <div className={styles.fullBarWrapper}>
-          <div className={styles.fullBarTrack}>
-                <Image
-              src="/genericas/barra_01.png"
-              alt="Barra decorativa 1"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.png"
-              alt="Barra decorativa 2"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_01.png"
-              alt="Barra decorativa 1 repeate"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.png"
-              alt="Barra 2 repeat"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-                 <Image
-              src="/genericas/barra_03.png"
-              alt="Barra decorativa 1 repeate"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_04.png"
-              alt="Barra 2 repeat"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-             <Image
-              src="/genericas/barra_01.png"
-              alt="Barra decorativa 1"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.png"
-              alt="Barra decorativa 2"
-              width={600}
-              height={220}
-              className={styles.fullBar}
-              quality={100}
-            />
-          </div>
+      <section className={styles.dicasSection}>
+        <div className={styles.content}>
+          <SectionTitle color="#facd0a"> Nossas dicas</SectionTitle>
+
+          <p className={styles.subtitle}>{subtitleContent}</p>
+
+          {hasDicas && (
+            <div className={styles.carouselWrapper}>
+              <CustomSwiper
+                slides={slides}
+                loop
+                pagination
+                autoplay={false}
+                autoplayDelay={3500}
+                spaceBetween={24}
+                breakpoints={{
+                  768: { slidesPerView: 1 },
+                  1024: { slidesPerView: 1 },
+                }}
+                className={styles.dicasSwiper}
+              />
+            </div>
+          )}
         </div>
-    <section className={styles.dicasSection}>
-      <div className={styles.content}>
-        <SectionTitle width="250px"> Nossas dicas</SectionTitle>
-
-        <p className={styles.subtitle}>{subtitleContent}</p>
-
-        {hasDicas && (
-          <div className={styles.carouselWrapper}>
-            <CustomSwiper
-              slides={slides}
-              loop
-              pagination
-              autoplay={false}
-              autoplayDelay={3500}
-              spaceBetween={24}
-              breakpoints={{
-                768: { slidesPerView: 1 },
-                1024: { slidesPerView: 1 },
-              }}
-              className={styles.dicasSwiper}
-            />
-          </div>
-        )}
-      </div>
-    </section>
+      </section>
     </>
   );
 };

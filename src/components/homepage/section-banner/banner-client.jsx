@@ -4,9 +4,15 @@ import { CustomSwiper } from "@/components/common/swiper";
 import Image from "next/image";
 import styles from "./styles.module.css";
 import { useMobile } from "@/hooks/useMobile";
+import { useEffect, useState } from "react";
 
 export const BannerClient = ({ branches }) => {
+  const [ready, setReady] = useState(false);
   const isMobile = useMobile();
+
+  useEffect(() => setReady(true), []);
+
+  if (!ready) return null;
 
   const slides = branches.map((branch, index) => (
     <section key={index} className={styles.banner}>
@@ -30,12 +36,5 @@ export const BannerClient = ({ branches }) => {
     </section>
   ));
 
-  return (
-    <CustomSwiper
-      slides={slides}
-      loop
-      pagination
-      autoplay={false}
-    />
-  );
+  return <CustomSwiper slides={slides} loop pagination autoplay={false} />;
 };

@@ -2,7 +2,7 @@ import { TeamContent } from "@/components/team";
 
 
 export const metadata = {
-  title: "Doriana",
+ title: "Doriana NOVO",
   description: "Doriana",
   author: "",
   icons: {
