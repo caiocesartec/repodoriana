@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Doriana NOVO",
+  title: "Doriana",
   description: "Doriana",
   author: "",
   icons: {
