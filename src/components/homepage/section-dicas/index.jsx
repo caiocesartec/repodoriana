@@ -21,9 +21,9 @@ export const SectionDicas = async ({ dicas }) => {
         <DicasCard
           key={index}
           titulo={dica.titulo}
-          descricao={dica.descricao}
-          imagem={dica.imagem?.url || "/imagem-dica.png"}
-          href="/"
+          detalhesDaDica={dica.detalhesDaDica}
+          imagem={dica.imagem || "/imagem-dica.png"}
+          href={dica.href}
         />
       ))
     : null;
