@@ -1,10 +1,11 @@
+import { getProdutos } from "@/lib/produtos";
 import { ProductsContent } from "@/components/products";
-import { produtos } from "@/lib/produtos";
 
-export default function ProdutoPage({ params }) {
-  const produto = produtos.find((p) => p.slug === params.slug);
+export default async function ProdutoPage({ params }) {
+  const produtos = await getProdutos();
+  const produtoisMapeados = produtos.find((p) => p.slug === params.slug);
 
-  if (!produto) return <h1>Produto não encontrado</h1>;
+  if (!produtoisMapeados) return <h1>Produto não encontrado</h1>;
 
-  return <ProductsContent produto={produto} />;
+  return <ProductsContent produto={produtoisMapeados} />;
 }

@@ -1,7 +1,9 @@
-import { produtos } from "@/lib/produtos";
+import { getProdutos } from "@/lib/produtos";
 import Link from "next/link";
 
-function ProdutosPage() {
+export default async function ProdutosPage() {
+  const produtos = await getProdutos();
+
   return (
     <section className="all-content">
       <main className="content-page">
@@ -16,5 +18,3 @@ function ProdutosPage() {
     </section>
   );
 }
-
-export default ProdutosPage;
