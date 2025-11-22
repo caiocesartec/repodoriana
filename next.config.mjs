@@ -4,6 +4,10 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "new.primor.com.br",
+      },
+      {
+        protocol: "https",
         hostname: "new.doriana.com.br",
       },
       {
