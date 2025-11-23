@@ -17,35 +17,37 @@ export async function getDicas() {
         }
       }
     }
-  `;  
+  `;
 
   function mapDica(dica) {
     const acf = dica?.camposDaDica ?? {};
-  
+
     return {
       titulo: acf?.nomeDaDica ?? "",
       detalhesDaDica: acf?.descricaoDaDica ?? "",
       imagem: acf?.imagem?.node?.mediaItemUrl || "/placeholder.png",
       href: acf?.linkDaDica || null,
     };
-  } 
+  }
 
-  const response = await fetch("https://new.doriana.com.br/graphql", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ query }),
-    cache: "no-store",
-  });
+  let data;
+  try {
+    const response = await fetch("https://new.doriana.com.br/graphql", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query }),
+      cache: "no-store",
+    });
 
-  const { data } = await response.json();
+    const json = await response.json();
+    data = json.data;
+  } catch (err) {
+    // console.error(err);
+    return [];
+  }
 
   return data?.dicas?.nodes?.map(mapDica) ?? [];
 }
-
-
-
-
-
 
 // export async function getDicas() {
 //   await new Promise((r) => setTimeout(r, 200));
