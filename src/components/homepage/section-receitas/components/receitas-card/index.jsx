@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 
-export const ReceitasCard = ({ nome, endereco, imagem, href }) => {
+export const ReceitasCard = ({ nome, imagem, href }) => {
   const imageUrl = imagem || "/imagem-filial.png";
 
   const CardContent = (

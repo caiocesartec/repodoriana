@@ -3,6 +3,8 @@
   width: 100%;
   min-height: 61vh;
   overflow: hidden;
+  width: 100%;
+  padding-left: 61px;
 }
 
 .backgroundImage {
@@ -87,10 +89,17 @@
 }
 
 @media (max-width: 1024px) {
+  .receitasSection {
+    padding-left: 0;
+  }
   .title {
-    font-size: 26px
+    font-size: 32px
   }
   .subtitle {
     font-size: 14px;
+  }
+  .paragrafoTitulo {
+    margin-top: 20px;
+    font-size: 16px;
   }
 }

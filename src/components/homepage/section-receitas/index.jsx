@@ -21,7 +21,6 @@ export const SectionReceitas = async ({ receitas }) => {
         <ReceitasCard
           key={receita.nome}
           nome={receita.nome}
-          categoria={receita.categoria}
           imagem={receita.imagem?.url || "/receitas/default.png"}
           href={receita.linkReceita?.url}
         />

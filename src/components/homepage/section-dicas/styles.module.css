@@ -5,6 +5,10 @@
   overflow: hidden;
   background-color: rgb(51, 6, 114);
   padding-left: 63px;
+  background-image: url('/genericas/footer-bg-wave-doriana.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .backgroundImage {
@@ -55,12 +59,14 @@
   text-align: center;
   width: 100%;
   max-width: 1200px;
-  margin: 12px auto 0;
-  padding-bottom: 20px;
   font-size: 19px;
   font-weight: 100;
   line-height: 1.6;
   color: #ffffff !important;
+  margin: 0 auto ;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .carouselWrapper {
@@ -92,11 +98,13 @@
 
   .dicasSection {
     padding-left: 0px;
+    height: 648px;
   }
 }
 
 @media (max-width: 890px) {
   .dicasSection {
-    height: auto
+    height: auto;
+    padding-bottom: 60px;
   }
 }

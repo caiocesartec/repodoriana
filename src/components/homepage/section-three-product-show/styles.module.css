@@ -42,10 +42,13 @@
 /* GRID DE PRODUTOS */
 .productsGrid {
     margin-top: 50px;
+    margin-bottom: 60px;
     gap: 4rem 2rem;
     place-items: center;
-    display: flex;
+    display: grid;
     overflow: auto;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
 }
 
 .productsGrid .productCardLink {

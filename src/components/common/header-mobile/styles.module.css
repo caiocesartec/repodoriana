@@ -9,8 +9,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 25px;
   z-index: 10000;
+}
+
+.headerMobile .logoLink {
+  width: 90%;
+  height: auto;
+  max-height: auto;
+}
+
+.headerMobile .logoLink {
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 1024px) {
