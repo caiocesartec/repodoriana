@@ -4,19 +4,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "new.primor.com.br",
-      },
-      {
-        protocol: "https",
         hostname: "new.doriana.com.br",
       },
       {
         protocol: "http",
         hostname: "primor-teste.local",
-      },
-      {
-        protocol: "https",
-        hostname: "www.datocms-assets.com",
       },
     ]
   },
