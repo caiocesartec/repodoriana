@@ -13,7 +13,7 @@ export default function Sidebar() {
       <div className={styles.spacer} />
 
       <div className={styles.socialIcons}>
-          <Link href="/#">
+          {/* <Link href="/#">
         <Image
           src="/icones/iLinkedin.png"
           alt="LinkedIn"
@@ -21,9 +21,9 @@ export default function Sidebar() {
           height={48}
           quality={100}
         />
-      </Link>
+      </Link> */}
 
-          <Link href="https://www.instagram.com/doriana/">
+        <Link target="_blank" href="https://www.instagram.com/doriana/">
 
         <Image
           src="/icones/iInstagramm.png"
@@ -34,7 +34,7 @@ export default function Sidebar() {
         />
       </Link>
 
-          <Link href="/#">
+          {/* <Link href="/#">
         <Image
           src="/icones/iWhats.png"
           alt="WhatsApp"
@@ -42,7 +42,7 @@ export default function Sidebar() {
           height={30}
           quality={100}
         />
-      </Link>
+      </Link> */}
     </div>
     </aside>
   );

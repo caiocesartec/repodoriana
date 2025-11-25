@@ -55,7 +55,7 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.seara.com.br/marcas/doriana/" target="_blank" onClick={() => setIsOpen(false)}>
+            <Link href="https://www.seara.com.br/minha-receita/" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
@@ -67,7 +67,7 @@ export const OpenMenu = () => {
         </ul>
 
         <div className={styles.socials}>
-          <Link href="/#">
+          {/* <Link href="/#">
             <Image
               src="/icones/iLinkedin.png"
               alt="LinkedIn"
@@ -75,9 +75,9 @@ export const OpenMenu = () => {
               height={48}
               quality={100}
             />
-          </Link>
+          </Link> */}
 
-          <Link href="/#">
+          <Link target="_blank" href="https://www.instagram.com/doriana/">
             <Image
               src="/icones/iInstagramm.png"
               alt="Instagram"
@@ -87,7 +87,7 @@ export const OpenMenu = () => {
             />
           </Link>
 
-          <Link href="/#">
+          {/* <Link href="/#">
             <Image
               src="/icones/iWhats.png"
               alt="WhatsApp"
@@ -95,7 +95,7 @@ export const OpenMenu = () => {
               height={30}
               quality={100}
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

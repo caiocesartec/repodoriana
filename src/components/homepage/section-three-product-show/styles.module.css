@@ -60,6 +60,8 @@
     text-align: center;
     max-width: 100%;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .imageWrapper {
@@ -101,15 +103,16 @@
 
 .productTitleCall {
     text-align: center;
-    font-size: 74px;
+    font-size: 55px;
     font-weight: 900;
     color: #ffd100;
     font-family: Gotham;
-    line-height: 72px;
+    line-height: 51px;
     padding-top: 45px;
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .descriptionProducts {

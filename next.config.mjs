@@ -8,7 +8,7 @@ const nextConfig = {
       },
       {
         protocol: "http",
-        hostname: "primor-teste.local",
+        hostname: "dorina-teste.local",
       },
     ]
   },

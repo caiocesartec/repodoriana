@@ -3,17 +3,23 @@
 }
 
 .title {
-  line-height: 72px;
-  font-size: 74px;
-  font-weight: 900;
-color: #330672;
-  font-family: "Gotham";
-  margin-top: 55px;
+    color: #330672;
+    margin-top: 55px;
+    font-family: Gotham;
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 51px;
+    margin-bottom: 17px;
+    width: 100%;
+    max-width: 100%;
 }
 
 @media (max-width: 1024px) {
   .title {
-    font-size: 26px;
+    font-size: 32px;
     margin-top: 20px;
+    margin-bottom: 14px;
+    margin-top: 42px;
+    line-height: 37px;
   }
 }

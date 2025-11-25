@@ -26,34 +26,6 @@ export const FormSection = () => {
     }, 1200);
   };
 
-  // Futuro submit do form pro back
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setStatus("sending");
-
-  //   try {
-  //     const response = await fetch("https://new.primor.com.br/wp-json/primor/v1/newsletter", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(form),
-  //     });
-
-  //     const result = await response.json();
-
-  //     if (result.success) {
-  //       setStatus("success");
-  //       setForm({ name: "", email: "", consent: false, age: false });
-  //     } else {
-  //       setStatus("error");
-  //     }
-  //   } catch (err) {
-  //     setStatus("error");
-  //   }
-  // };
-
   return (
     <div className={styles.wrapper}>
       <form className={styles.newsletterBox} onSubmit={handleSubmit}>
