@@ -156,7 +156,7 @@ export const useFormSection = () => {
 
     try {
       const response = await fetch(
-        "https://new.delicia.com.br/wp-json/primor/v1/newsletter",
+        "https://new.doriana.com.br/wp-json/primor/v1/newsletter",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
