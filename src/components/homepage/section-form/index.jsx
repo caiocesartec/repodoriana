@@ -35,12 +35,6 @@ export const FormSection = () => {
     adaptiveHeight: true,
   };
 
-  const handleKeyDown = (e) => {
-    if (e.key === "Enter" || e.key === "Tab") {
-      e.preventDefault();
-    }
-  };
-
   return (
     <div className={styles.wrapper}>
       {status === "success" ? (
@@ -51,7 +45,6 @@ export const FormSection = () => {
         <form
           className={styles.newsletterBox}
           onSubmit={(e) => e.preventDefault()}
-          onKeyDown={handleKeyDown}
         >
           <div className={styles.inner}>
             <div className={styles.titleWrapper}>
@@ -64,7 +57,12 @@ export const FormSection = () => {
             </div>
 
             <div className={styles.systemOfADown}>
-              <Slider ref={sliderRef} {...settings} className={styles.slider}>
+              <Slider
+                ref={sliderRef}
+                {...settings}
+                className={styles.slider}
+                accessibility={false}
+              >
                 <div>
                   <div className={styles.formGroup}>
                     <div
@@ -73,6 +71,7 @@ export const FormSection = () => {
                       }`}
                     >
                       <input
+                        tabIndex={-1}
                         className={styles.input}
                         name="name"
                         id="name"
@@ -100,6 +99,7 @@ export const FormSection = () => {
                       }`}
                     >
                       <input
+                        tabIndex={-1}
                         className={styles.input}
                         name="phone"
                         id="phone"
@@ -130,6 +130,7 @@ export const FormSection = () => {
                         }`}
                       >
                         <input
+                          tabIndex={-1}
                           className={styles.input}
                           name="age"
                           id="age"
@@ -164,6 +165,7 @@ export const FormSection = () => {
                         }`}
                       >
                         <select
+                          tabIndex={-1}
                           className={`${styles.input} ${styles.select}`}
                           name="state"
                           id="state"
@@ -200,6 +202,7 @@ export const FormSection = () => {
                       }`}
                     >
                       <input
+                        tabIndex={-1}
                         className={styles.input}
                         name="email"
                         id="email"
@@ -232,6 +235,7 @@ export const FormSection = () => {
                     }`}
                   >
                     <input
+                      tabIndex={-1}
                       type="checkbox"
                       id="privacy"
                       name="privacy"
@@ -242,6 +246,7 @@ export const FormSection = () => {
                     <label htmlFor="privacy" className={styles.checkboxLabel}>
                       Li e aceito a{" "}
                       <a
+                        tabIndex={-1}
                         href="https://www.seara.com.br/politica-de-privacidade/"
                         target="_blank"
                         rel="noreferrer"
@@ -262,6 +267,7 @@ export const FormSection = () => {
                     }`}
                   >
                     <input
+                      tabIndex={-1}
                       type="checkbox"
                       id="security"
                       name="security"
@@ -277,6 +283,7 @@ export const FormSection = () => {
 
                   <div className={styles.checkboxGroup}>
                     <input
+                      tabIndex={-1}
                       type="checkbox"
                       id="promo"
                       name="promo"

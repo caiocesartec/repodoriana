@@ -18,23 +18,28 @@
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 10px;
+    font-family: "Gotham";
+    color: #facd0a;
   }
   
   .finalText {
     font-size: 18px;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 25px;
+    font-family: "Gotham";    
   }
   
   .finalButton {
-    background: #d71920;
-    color: #fff;
+    background: #facd0a;
+    color: #0f1425;
     border: none;
     padding: 14px 30px;
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
-  }
+    font-family: "Gotham";
+    font-weight: 600
+    }
   
   @keyframes fadeUp {
     from {
