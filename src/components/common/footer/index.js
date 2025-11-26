@@ -9,7 +9,7 @@ export const Footer = () => {
       <Image
         src="/genericas/onda.png"
         alt="Doriana"
-        width={221}
+        width={2000}
         height={107}
         quality={100}
       />
