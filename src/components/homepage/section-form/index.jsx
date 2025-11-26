@@ -25,7 +25,7 @@ export const FormSection = () => {
   } = useFormSection();
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     arrows: false,
     speed: 300,
@@ -36,7 +36,9 @@ export const FormSection = () => {
   };
 
   const handleKeyDown = (e) => {
-    if (e.key === "Enter") e.preventDefault();
+    if (e.key === "Enter" || e.key === "Tab") {
+      e.preventDefault();
+    }
   };
 
   return (
@@ -63,7 +65,6 @@ export const FormSection = () => {
 
             <div className={styles.systemOfADown}>
               <Slider ref={sliderRef} {...settings} className={styles.slider}>
-                
                 <div>
                   <div className={styles.formGroup}>
                     <div
@@ -113,14 +114,15 @@ export const FormSection = () => {
                     </div>
 
                     {errors.phone && (
-                      <p className={styles.errorText}>Informe um celular válido.</p>
+                      <p className={styles.errorText}>
+                        Informe um celular válido.
+                      </p>
                     )}
                   </div>
                 </div>
 
                 <div>
                   <div className={styles.rowGroup}>
-                    
                     <div className={styles.formGroup}>
                       <div
                         className={`${styles.floating} ${
@@ -138,13 +140,15 @@ export const FormSection = () => {
                           placeholder=" "
                         />
                         <label htmlFor="age">
-                          Data de nascimento <span className={styles.required}>*</span>
+                          Data de nascimento{" "}
+                          <span className={styles.required}>*</span>
                         </label>
                       </div>
 
                       {errors.age === "UNDERAGE" ? (
                         <p className={styles.errorText}>
-                          É proibido realizar o cadastro para menores de 18 anos.
+                          É proibido realizar o cadastro para menores de 18
+                          anos.
                         </p>
                       ) : errors.age ? (
                         <p className={styles.errorText}>
@@ -180,7 +184,9 @@ export const FormSection = () => {
                       </div>
 
                       {errors.state && (
-                        <p className={styles.errorText}>Selecione seu estado.</p>
+                        <p className={styles.errorText}>
+                          Selecione seu estado.
+                        </p>
                       )}
                     </div>
                   </div>
@@ -209,7 +215,9 @@ export const FormSection = () => {
                     </div>
 
                     {errors.email && (
-                      <p className={styles.errorText}>Informe um e-mail válido.</p>
+                      <p className={styles.errorText}>
+                        Informe um e-mail válido.
+                      </p>
                     )}
                   </div>
                 </div>
@@ -267,7 +275,6 @@ export const FormSection = () => {
                     </label>
                   </div>
 
-
                   <div className={styles.checkboxGroup}>
                     <input
                       type="checkbox"
@@ -282,7 +289,6 @@ export const FormSection = () => {
                     </label>
                   </div>
                 </div>
-
               </Slider>
             </div>
 
@@ -298,6 +304,17 @@ export const FormSection = () => {
               ) : (
                 <div style={{ width: 56 }} />
               )}
+
+              <div className={styles.dots}>
+                {[0, 1, 2, 3, 4].map((i) => (
+                  <div
+                    key={i}
+                    className={`${styles.dot} ${
+                      step === i ? styles.activeDot : ""
+                    }`}
+                  />
+                ))}
+              </div>
 
               {step < 4 && (
                 <button
