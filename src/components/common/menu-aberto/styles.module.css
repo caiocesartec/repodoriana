@@ -39,7 +39,6 @@
 
 .logoWrapper {
   margin-top: 40px;
-  margin-bottom: 50px;
   cursor: pointer;
 }
 
@@ -50,6 +49,10 @@
   line-height: 2.6;
   font-size: 48px;
   font-weight: 600;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .navList li a {
@@ -70,6 +73,8 @@
   margin-top: auto;
   padding-bottom: 52px;
   align-items: center;
+  margin-top: 20px;
+
 }
 
 .socials :global(img) {
