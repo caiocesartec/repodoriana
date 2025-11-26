@@ -67,7 +67,7 @@ export const Footer = () => {
             <div className={styles.footerColumn}>
               <p className={styles.footerTitle}>CONTATO</p>
               <nav className={styles.footerList}>
-                <Link href="tel:+0800-047-2425">0800-047-2425</Link>
+                <Link href="tel:+08000472425">0800-047-2425</Link>
               </nav>
             </div>
            
