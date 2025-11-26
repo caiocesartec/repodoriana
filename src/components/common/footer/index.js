@@ -5,15 +5,6 @@ import Image from "next/image";
 export const Footer = () => {
   return (
     <>
-    <div className={styles.barDivide}>
-      <Image
-        src="/genericas/onda.png"
-        alt="Doriana"
-        width={2000}
-        height={107}
-        quality={100}
-      />
-    </div>
     <footer className={styles.footerContainer}>
       <div className={styles.footerContent}>
         <div className={styles.columnsWrapper}>
