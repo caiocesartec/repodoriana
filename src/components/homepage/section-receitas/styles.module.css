@@ -103,3 +103,61 @@
     font-size: 16px;
   }
 }
+
+.carouselWrapper {
+  padding-bottom: 80px;
+}
+
+
+
+.receitasSwiper :global(.swiper-button-prev),
+.receitasSwiper :global(.swiper-button-next) {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #330672;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  position: absolute;
+  top: 60%;
+  z-index: 10;
+}
+
+
+.receitasSwiper :global(.swiper-button-prev::after),
+.receitasSwiper :global(.swiper-button-next::after) {
+  font-size: 16px;
+}
+
+
+@media (max-width: 1124px) {
+
+  .receitasSwiper :global(.swiper-button-prev),
+  .receitasSwiper :global(.swiper-button-next) {
+    width: 36px;
+    height: 36px;
+    top: auto;
+    bottom: 24px;
+  }
+
+  .receitasSwiper :global(.swiper-button-prev::after),
+  .receitasSwiper :global(.swiper-button-next::after) {
+    font-size: 13px;
+  }
+
+  .receitasSwiper :global(.swiper-button-prev) {
+    left: 50%;
+    transform: translateX(-52px);
+  }
+
+  .receitasSwiper :global(.swiper-button-next) {
+    right: auto;
+    left: 50%;
+    transform: translateX(16px);
+  }
+}
+

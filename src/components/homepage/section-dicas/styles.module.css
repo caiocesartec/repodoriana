@@ -118,3 +118,58 @@
     padding-bottom: 60px;
   }
 }
+
+.carouselWrapper {
+  position: relative;
+  padding-bottom: 80px;
+}
+
+
+.dicasSwiper :global(.swiper-button-prev),
+.dicasSwiper :global(.swiper-button-next) {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #330672;
+
+  position: absolute;
+  top: 50%;          
+  z-index: 10;
+}
+
+.dicasSwiper :global(.swiper-button-prev::after),
+.dicasSwiper :global(.swiper-button-next::after) {
+  font-size: 16px;
+}
+
+@media (max-width: 1124px) {
+
+  .dicasSwiper :global(.swiper-button-prev),
+  .dicasSwiper :global(.swiper-button-next) {
+    width: 36px;
+    height: 36px;
+    top: auto;
+    bottom: 24px;
+  }
+
+  .dicasSwiper :global(.swiper-button-prev::after),
+  .dicasSwiper :global(.swiper-button-next::after) {
+    font-size: 13px;
+  }
+
+  .dicasSwiper :global(.swiper-button-prev) {
+    left: 50%;
+    transform: translateX(-52px);
+  }
+
+  .dicasSwiper :global(.swiper-button-next) {
+    right: auto;
+    left: 50%;
+    transform: translateX(16px);
+  }
+}

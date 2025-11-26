@@ -190,3 +190,68 @@
   }
 
 }
+
+
+.bannerSwiper {
+  position: relative;
+}
+
+.bannerSwiper :global(.swiper-button-prev),
+.bannerSwiper :global(.swiper-button-next) {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #330672;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+.bannerSwiper :global(.swiper-button-prev::after),
+.bannerSwiper :global(.swiper-button-next::after) {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.bannerSwiper :global(.swiper-button-prev) {
+  left: 80px;
+}
+
+.bannerSwiper :global(.swiper-button-next) {
+  right: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .bannerSwiper :global(.swiper-button-prev) {
+    left: 20px;
+  }
+
+  .bannerSwiper :global(.swiper-button-prev),
+  .bannerSwiper :global(.swiper-button-next) {
+    width: 40px;
+    height: 40px;
+  }
+
+  .bannerSwiper :global(.swiper-button-prev::after),
+  .bannerSwiper :global(.swiper-button-next::after) {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .bannerSwiper :global(.swiper-button-prev),
+  .bannerSwiper :global(.swiper-button-next) {
+    width: 36px;
+    height: 36px;
+  }
+
+  .bannerSwiper :global(.swiper-button-prev::after),
+  .bannerSwiper :global(.swiper-button-next::after) {
+    font-size: 14px;
+  }
+}

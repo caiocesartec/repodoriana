@@ -41,9 +41,9 @@ export const SectionDicas = async ({ dicas }) => {
               <CustomSwiper
                 slides={slides}
                 loop
-                pagination
+                navigation
+                pagination={false}
                 autoplay={false}
-                autoplayDelay={3500}
                 spaceBetween={24}
                 breakpoints={{
                   768: { slidesPerView: 1 },

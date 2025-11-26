@@ -36,5 +36,13 @@ export const BannerClient = ({ branches }) => {
     </section>
   ));
 
-  return <CustomSwiper slides={slides} loop pagination autoplay={false} />;
+  return (
+    <CustomSwiper
+      slides={slides}
+      loop
+      navigation
+      pagination={false}
+      className={styles.bannerSwiper}
+    />
+  );
 };

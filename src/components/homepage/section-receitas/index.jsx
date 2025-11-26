@@ -53,7 +53,8 @@ export const SectionReceitas = async ({ receitas }) => {
               <CustomSwiper
                 slides={slides}
                 loop
-                pagination
+                navigation
+                pagination={false}
                 autoplay={true}
                 autoplayDelay={3500}
                 spaceBetween={24}
