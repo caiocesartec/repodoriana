@@ -1,3 +1,42 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.slick-dots li button:before {
+  font-size: 0 !important;
+  width: 10px !important;
+  height: 10px !important;
+
+  border-radius: 50%;
+  content: "";
+
+  background: #d9d9d9 !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  background: #facd0a !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li button {
+  pointer-events: none !important;
+}
+
 @font-face {
   font-family: "Gotham Rounded";
   src: url("/fonts/Gotham Fonts Family/gotham-rounded-medium.otf") format("opentype");
