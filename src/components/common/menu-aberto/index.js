@@ -42,7 +42,7 @@ export const OpenMenu = () => {
               src="/logos/Doriana-Logo-Blur-RGB-210913.png"
               alt="Logo Doriana"
               width={226}
-              height={138}
+              height={125}
               quality={100}
             />
           </Link>
@@ -67,35 +67,38 @@ export const OpenMenu = () => {
         </ul>
 
         <div className={styles.socials}>
-          {/* <Link href="/#">
+      
+          <Link target="_blank" href="https://www.facebook.com/Doriana/">
             <Image
-              src="/icones/iLinkedin.png"
-              alt="LinkedIn"
-              width={48}
-              height={48}
-              quality={100}
-            />
-          </Link> */}
-
-          <Link target="_blank" href="https://www.instagram.com/doriana/">
-            <Image
-              src="/icones/iInstagramm.png"
-              alt="Instagram"
-              width={38}
-              height={38}
+              src="/logos/ico-face.png"
+              alt="Icone Facebook"
+              width={17}
+              height={30}
+              style={{marginRight: 6 }}
               quality={100}
             />
           </Link>
-
-          {/* <Link href="/#">
+      
+          <Link target="_blank" href="https://www.instagram.com/doriana/">
             <Image
-              src="/icones/iWhats.png"
-              alt="WhatsApp"
+              src="/logos/ico-insta.png"
+              alt="Icone Instagram"
               width={30}
               height={30}
               quality={100}
             />
-          </Link> */}
+          </Link>
+    
+          <Link target="_blank" href="https://www.youtube.com/@Dorianabr">
+            <Image
+              src="/logos/ico-you.png"
+              alt="Icone Youtube"
+              width={33}
+              height={31}
+              quality={100}
+            />
+          </Link>
+           
         </div>
       </div>
     </>
