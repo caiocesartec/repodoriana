@@ -63,6 +63,50 @@ export const useFormSection = () => {
     setErrors((prev) => ({ ...prev, [name]: false }));
   };
 
+  const validateBirthDate = (dateStr) => {
+    if (!/^\d{2}\/\d{2}\/\d{4}$/.test(dateStr)) {
+      return "INVALID_DATE";
+    }
+
+    const [day, month, year] = dateStr.split("/").map(Number);
+
+    const currentYear = new Date().getFullYear();
+
+    if (year < 1900 || year > currentYear) {
+      return "INVALID_DATE";
+    }
+
+    if (month < 1 || month > 12) {
+      return "INVALID_DATE";
+    }
+
+    const daysInMonth = new Date(year, month, 0).getDate();
+
+    if (day < 1 || day > daysInMonth) {
+      return "INVALID_DATE";
+    }
+
+    const birthDate = new Date(year, month - 1, day);
+    const today = new Date();
+
+    if (birthDate > today) {
+      return "INVALID_DATE";
+    }
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
+
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+
+    if (age < 18) {
+      return "UNDERAGE";
+    }
+
+    return null;
+  };
+
   const validateStep = (currentStep) => {
     const newErrors = {};
 
@@ -75,27 +119,11 @@ export const useFormSection = () => {
     }
 
     if (currentStep === 2) {
-        if (form.age.length < 10) newErrors.age = true;
-        if (!form.state) newErrors.state = true;
-      
-        if (form.age.length === 10) {
-          const [day, month, year] = form.age.split("/").map(Number);
-          const birthDate = new Date(year, month - 1, day);
-          const today = new Date();
-      
-          let age = today.getFullYear() - birthDate.getFullYear();
-          const m = today.getMonth() - birthDate.getMonth();
-      
-          if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-            age--;
-          }
-      
-          if (age < 18) {
-            newErrors.age = "UNDERAGE";
-          }
-        }
-      }
-      
+      if (!form.state) newErrors.state = true;
+
+      const ageError = validateBirthDate(form.age);
+      if (ageError) newErrors.age = ageError;
+    }
 
     if (currentStep === 3) {
       if (!form.email.includes("@")) newErrors.email = true;
@@ -128,7 +156,7 @@ export const useFormSection = () => {
 
     try {
       const response = await fetch(
-        "https://new.doriana.com.br/wp-json/primor/v1/newsletter",
+        "https://new.delicia.com.br/wp-json/primor/v1/newsletter",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
