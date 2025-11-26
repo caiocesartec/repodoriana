@@ -26,7 +26,7 @@
   z-index: 1;
   width: 100%;
   background: hsla(213, 94%, 26%, 0.3);
-  padding: 4rem 2rem;
+  padding: 4rem 5rem;
   min-height: 61vh;
   box-sizing: border-box;
 }
@@ -47,7 +47,6 @@
   margin-bottom: 0.5rem;
 }
 
-
 .divider {
   width: 70px;
   height: 2px;
@@ -56,9 +55,9 @@
 }
 
 .title {
-  font-family: "Gotham";
+   font-family: Magnolia;
   font-size: 74px;
-  font-weight: 900;
+  font-weight: 700;
   color: #FACD0A;;
 }
 
@@ -77,7 +76,7 @@
 }
 
 .receitasSwiper {
-  position: static;
+  position: static!important;
   margin-top: 1rem;
 }
 
@@ -105,59 +104,73 @@
 }
 
 .carouselWrapper {
-  padding-bottom: 80px;
+  padding-bottom: 49px;
+  max-width: 1200px;
+  position: relative;
 }
-
-
-
-.receitasSwiper :global(.swiper-button-prev),
-.receitasSwiper :global(.swiper-button-next) {
+.carouselWrapper :global(.swiper-button-prev),
+.carouselWrapper :global(.swiper-button-next) {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #330672;
+  background-color: #053282;
 
-  display: flex;
+  display: flex !important;
+
   align-items: center;
   justify-content: center;
-  color: white;
+  color: white !important;
 
   position: absolute;
   top: 60%;
   z-index: 10;
 }
-
-
-.receitasSwiper :global(.swiper-button-prev::after),
-.receitasSwiper :global(.swiper-button-next::after) {
+.carouselWrapper :global(.swiper-button-prev::after),
+.carouselWrapper :global(.swiper-button-next::after) {
   font-size: 16px;
 }
 
 
-@media (max-width: 1124px) {
 
-  .receitasSwiper :global(.swiper-button-prev),
-  .receitasSwiper :global(.swiper-button-next) {
+
+.carouselWrapper :global(.swiper-button-prev) {
+  top: 40%;
+  transform: translateX(-70px);
+}
+
+.carouselWrapper :global(.swiper-button-next) {
+  top: 40%;
+  transform: translateX(70px);
+}
+
+@media (max-width: 1124px) {
+  .overlay {
+    padding: 4rem 3rem;
+  }
+  
+  .carouselWrapper :global(.swiper-button-prev),
+  .carouselWrapper :global(.swiper-button-next) {
     width: 36px;
     height: 36px;
     top: auto;
     bottom: 70px;
   }
 
-  .receitasSwiper :global(.swiper-button-prev::after),
-  .receitasSwiper :global(.swiper-button-next::after) {
+  .carouselWrapper :global(.swiper-button-prev::after),
+  .carouselWrapper :global(.swiper-button-next::after) {
     font-size: 13px;
   }
 
-  .receitasSwiper :global(.swiper-button-prev) {
-    left: 50%;
+  .carouselWrapper :global(.swiper-button-prev) {
+  top: 40%;
     transform: translateX(-52px);
   }
 
-  .receitasSwiper :global(.swiper-button-next) {
-    right: auto;
-    left: 50%;
-    transform: translateX(16px);
+  .carouselWrapper :global(.swiper-button-next) {
+  top: 40%;
+    transform: translateX(52px);
+  }
+  .carouselWrapper {
+    padding-bottom: 20px;
   }
 }
-
