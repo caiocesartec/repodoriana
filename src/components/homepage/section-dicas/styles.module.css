@@ -142,7 +142,9 @@
   z-index: 10;
 }
 
-.dicasSwiper :global(.swiper-button-prev::after),
+.dicasSwiper :global(.swiper-button-prev::after) {
+  font-size: 16px;
+}
 .dicasSwiper :global(.swiper-button-next::after) {
   font-size: 16px;
 }
@@ -157,7 +159,9 @@
     bottom: 24px;
   }
 
-  .dicasSwiper :global(.swiper-button-prev::after),
+  .dicasSwiper :global(.swiper-button-prev::after) {
+    font-size: 13px;
+  }
   .dicasSwiper :global(.swiper-button-next::after) {
     font-size: 13px;
   }

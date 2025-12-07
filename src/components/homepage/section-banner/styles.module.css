@@ -210,7 +210,12 @@
   color: white;
 }
 
-.bannerSwiper :global(.swiper-button-prev::after),
+
+.bannerSwiper :global(.swiper-button-prev::after) {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .bannerSwiper :global(.swiper-button-next::after) {
   font-size: 22px;
   font-weight: 600;
@@ -236,12 +241,13 @@
     height: 40px;
   }
 
-  .bannerSwiper :global(.swiper-button-prev::after),
+  .bannerSwiper :global(.swiper-button-prev::after) {
+    font-size: 16px;
+  }
   .bannerSwiper :global(.swiper-button-next::after) {
     font-size: 16px;
   }
 }
-
 
 @media (max-width: 480px) {
   .bannerSwiper :global(.swiper-button-prev),
@@ -250,7 +256,9 @@
     height: 36px;
   }
 
-  .bannerSwiper :global(.swiper-button-prev::after),
+  .bannerSwiper :global(.swiper-button-prev::after) {
+    font-size: 14px;
+  }
   .bannerSwiper :global(.swiper-button-next::after) {
     font-size: 14px;
   }
