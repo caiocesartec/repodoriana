@@ -4,34 +4,34 @@ import { CustomSwiper } from "@/components/common/swiper";
 
 const SOCIALS = [
   {
-    href: "https://www.instagram.com/searabrasil/",
+    href: "https://www.instagram.com/doriana/",
     bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Instagram.webp",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Instagram.webp",
-    alt: "Instagram",
+    alt: "Doriana Instagram",
   },
   {
-    href: "https://www.facebook.com/SearaBrasil/",
+    href: "https://www.facebook.com/Doriana",
     bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Facebook.webp",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Facebook.webp",
     alt: "Facebook",
   },
   {
-    href: "https://www.tiktok.com/@seara_brasil",
+    href: "https://www.tiktok.com/@doriana.oficial",
     bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-TikTok.webp",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/TikTok.webp",
     alt: "TikTok",
   },
   {
-    href: "https://br.pinterest.com/seara_brasil/",
+    href: "https://br.pinterest.com/doriana_oficial/",
     bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Pinterest.webp",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/08/pinterest.webp",
     alt: "Pinterest",
   },
-  {
-    href: "https://open.spotify.com/",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Spotify.webp",
-    icon: "https://www.seara.com.br/wp-content/uploads/2024/08/spotify.webp",
-    alt: "Spotify",
+    {
+    href: "https://www.youtube.com/c/Dorianabr",
+    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Pinterest.webp",
+    icon: "https://www.seara.com.br/wp-content/uploads/2024/08/pinterest.webp",
+    alt: "Youtube",
   },
 ];
 
