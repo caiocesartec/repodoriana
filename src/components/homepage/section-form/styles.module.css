@@ -4,6 +4,7 @@
   padding: 1.5rem;
   font-family: "Gotham", system-ui, sans-serif;
   background: linear-gradient(135deg, #053282 0%, #0f4196 40%, #330672 100%);
+  border-top: 6px solid #f5c63a;
 
 }
 

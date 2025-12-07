@@ -2,11 +2,11 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 import Link from "next/link";
 
-export const SectionReceitas = async () => {
+export const SectionReceitas = () => {
   return (
     <section className={styles.receitasSection}>
       <Image
-        src="/banners/receitas.png"
+        src="/banners/receitas_3.png"
         alt="Fundo receitas"
         fill
         className={styles.backgroundImage}

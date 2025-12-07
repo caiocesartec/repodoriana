@@ -23,6 +23,8 @@ export const CustomSwiper = ({
   className = "",
   mobileOnly = false,
   fallbackClass = "",
+  watchOverflow = false,
+  centeredSlides = false,
 }) => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -49,6 +51,8 @@ export const CustomSwiper = ({
       slidesPerView={slidesPerView}
       spaceBetween={spaceBetween}
       breakpoints={breakpoints || {}}
+      watchOverflow={watchOverflow}
+      centeredSlides={centeredSlides}
       className={`${styles.swiper} ${className}`}
     >
       {slides.map((slide, index) => (

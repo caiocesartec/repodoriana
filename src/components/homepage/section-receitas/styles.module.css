@@ -4,6 +4,7 @@
   overflow: hidden;
   width: 100%;
   padding-left: 61px;
+  border-top: 6px solid #f5c63a;
 }
 
 .backgroundImage {
@@ -38,7 +39,7 @@
 .overlay {
   z-index: 1;
   box-sizing: border-box;
-  background: #043c814d;
+  background: #043c8194;
   width: 100%;
   height: auto;
   position: relative;
@@ -70,7 +71,7 @@
 }
 
 .title {
-   font-family: Magnolia;
+   font-family: "Gotham";
   font-size: 74px;
   font-weight: 700;
   color: #FACD0A;;

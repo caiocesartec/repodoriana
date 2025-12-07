@@ -5,32 +5,32 @@ import { CustomSwiper } from "@/components/common/swiper";
 const SOCIALS = [
   {
     href: "https://www.instagram.com/doriana/",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Instagram.webp",
+    bg: "/genericas/rede_1.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Instagram.webp",
     alt: "Doriana Instagram",
   },
   {
     href: "https://www.facebook.com/Doriana",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Facebook.webp",
+    bg: "/genericas/rede_2.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Facebook.webp",
     alt: "Facebook",
   },
   {
     href: "https://www.tiktok.com/@doriana.oficial",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-TikTok.webp",
+    bg: "/genericas/rede_3.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/TikTok.webp",
     alt: "TikTok",
   },
   {
     href: "https://br.pinterest.com/doriana_oficial/",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Pinterest.webp",
+    bg: "/genericas/rede_4.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/08/pinterest.webp",
     alt: "Pinterest",
   },
     {
     href: "https://www.youtube.com/c/Dorianabr",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Pinterest.webp",
-    icon: "https://www.seara.com.br/wp-content/uploads/2024/08/pinterest.webp",
+    bg: "/genericas/rede_5.jpg",
+    icon: "/icones/youtubee.png",
     alt: "Youtube",
   },
 ];
@@ -47,7 +47,7 @@ const renderCard = (item, index) => (
       <div className={styles.iconWrapper}>
         <img src={item.icon} alt={item.alt} className={styles.icon} />
         <img
-          src="/logos/seara-logo-mono-branco.webp"
+          src="/logos/Doriana-Logo-Blur-RGB-210913.png"
           alt="Seara"
           className={styles.logo}
         />
@@ -60,9 +60,9 @@ export const SectionRir = () => {
   const slides = SOCIALS.map((item, index) => renderCard(item, index));
 
   return (
-    <section className={styles.receitasSection}>
+    <section className={styles.rirSection}>
       <Image
-        src="/banners/rir-seara-banner.webp"
+        src="/banners/Banner_Manteigaa.jpg"
         alt="Fundo"
         fill
         className={styles.backgroundImage}
@@ -84,12 +84,20 @@ export const SectionRir = () => {
 
           <CustomSwiper
             slides={slides}
-            mobileOnly={true}
-            loop
+            loop={true}
             navigation
             pagination={false}
             slidesPerView={1}
             spaceBetween={22}
+            watchOverflow={true}
+            breakpoints={{
+              700: {
+                slidesPerView: 2,
+              },
+              940: {
+                slidesPerView: 3,
+              },
+            }}
             className={styles.rirSwiper}
             fallbackClass={styles.contentMobile}
           />
